@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FaUserGraduate, FaChalkboardTeacher, FaCalendarAlt } from 'react-icons/fa';
+
+import { useSpring, animated } from 'react-spring';
+import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
 
 import 'swiper/css';
 import 'swiper/css/effect-fade';
@@ -33,7 +37,7 @@ import img17 from '@/images/gallery_images/Image17.jpg'
 import img18 from '@/images/gallery_images/Image18.jpg'
 
 const images = [img1, img2, img3, img4, img5, img6, img7];
-const images1 = [ img8, img9, img10, img11, img12, img13, img14];
+const images1 = [ img10, img11, img12, img13];
 
 const routs = [
   {
@@ -99,6 +103,32 @@ const routs = [
 ]
 
 export function Hero() {
+
+  const [isStatsVisible, setStatsVisible] = useState(false);
+
+  useEffect(() => {
+    const delay = 1000; // 1000 milliseconds = 1 second
+    const timer = setTimeout(() => {
+      setStatsVisible(true);
+    }, delay);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  const statsAnimation = useSpring({
+    from: { opacity: 0, transform: 'translateY(20px)' },
+    to: { opacity: isStatsVisible ? 1 : 0, transform: isStatsVisible ? 'translateY(0)' : 'translateY(20px)' },
+    config: { duration: 500 },
+  });
+
+  const statsData = [
+    { label: 'Student Members', value: 228 },
+    { label: 'Faculty Members', value: 7 },
+    { label: 'Events Conducted (Last Year)', value: 65 },
+  ];
+
+
+
   return (
     <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white text-gray-800">
       <div className="container mx-auto flex flex-col items-center px-4 pt-8 text-center md:px-10 lg:px-8">
@@ -145,7 +175,7 @@ export function Hero() {
         <div className="mx-auto max-w-5xl mt-10 grid grid-cols-1 gap-6 lg:grid-cols-4">
           {/* Content */}
           <div className="col-span-1 lg:col-span-2">
-            <h1 className="text-xl lg:text-3xl text-center font-bold mb-4 ">
+            <h1 className="text-xl lg:text-5xl text-center font-bold mb-7 ">
               What is <span className="text-2xl lg:text-5xl font-bold text-blue-500">IEEE RIT-B?</span>
             </h1>
             <p className="text-md mx-auto max-w-4xl tracking-tight text-slate-800 lg:text-lg">
@@ -161,28 +191,66 @@ export function Hero() {
             </p>
           </div>
 
-        {/* Bento Grid */}
-        <div className="col-span-1 lg:col-span-2 grid grid-cols-1 lg:grid-cols-2 gap-4">
-            {images1.map((image, index) => (
-              <div
-                key={index}
-                className={`relative ${index === 0 ? 'aspect-w-1 aspect-h-1' : 'aspect-w-2 aspect-h-2'}`}
-              >
-              <Image
-                className="rounded-lg object-cover"
-                src={image}
-                alt={index + 'image'}
-                layout="fill"
-              />
-            </div>
-          ))}
-        </div>
-      </div>
+          <div className="grid-container">
+  {images1.map((image, index) => (
+    <img
+      key={image.src}
+      src={image.src}
+      alt={image.alt}
+      className={`grid-item ${index === 0 ? 'large-image' : ''} ${
+        index < 2 ? 'first-column' : 'second-column',
+        index < 2 ? 'first-row' : 'second-row'
+      }`
+      
+    
+    }
+    />
+  ))}
+  <style jsx>{`
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* Two columns */
+      gap: 16px; /* Adjust the gap as needed */
+    }
+
+    .grid-item {
+      width: 300px; /* Take full width of the container */
+      max-width: 400px; /* Set maximum width */
+      height: auto; /* Maintain aspect ratio */
+      max-height: 600px; /* Set max height as needed */
+      object-fit: cover; /* Cover the container while maintaining aspect ratio */
+      border-radius: 8px; /* Add rounded corners */
+    }
+
+    .large-image {
+      width: 300px; /* Take full width */
+      height: 200px; /* Set a larger height for the first image */
+
+
+    .first-column {
+      grid-column: 1; /* Place in the first column */
+    }
+
+    .second-column {
+      grid-column: 2; /* Place in the second column */
+    }
+
+    .first-row {
+      grid-row: 1; /* Place in the first column */
+    }
+
+    .second-row {
+      grid-row: 2; /* Place in the second column */
+    }
+  `}</style>
+</div>
+
+</div>
 
 
 
       <div className="mx-auto max-w-4xl mt-10 p-4 rounded-xl transition duration-300 ease-in-out transform hover:shadow-lg">
-          <h1 className="text-md lg:text-2xl text-center font-bold mb-4">
+          <h1 className="text-md lg:text-3xl text-center font-bold mb-5">
             Why <span className="text-lg lg:text-3xl font-bold text-blue-500">IEEE RIT-B?</span>
           </h1>
           <ul className="list-disc list-inside text-md lg:text-lg">
@@ -211,38 +279,30 @@ export function Hero() {
 
 
       <div className="flex justify-center mt-10">
-          <div className="cas-stats p-4 rounded-xl max-w-3xl w-full bg-gradient-to-r from-blue-200 to-blue-300 transition duration-300 ease-in-out transform hover:shadow-lg">
-            <h2 className="text-md lg:text-2xl font-bold text-center mb-4">
-              Stats
-            </h2>
-            <div className="cas-counters flex justify-center">
-              <div className="cas-counter mx-4">
-                <FaUserGraduate className="cas-icon" />
-                <span className="cas-number text-xl font-bold">Student Members</span>
-                <ButtonLink href="./" className="cas-button bg-sky-900 text-gray-50 mt-2">
-                  228
-                </ButtonLink>
-              </div>
-
-              <div className="cas-counter mx-4">
-                <FaChalkboardTeacher className="cas-icon" />
-                <span className="cas-number text-xl font-bold mb-2">Faculty Members</span>
-                <ButtonLink href="./" className="cas-button bg-sky-900 text-gray-50 mt-2">
-                  7
-                </ButtonLink>
-              </div>
-
-              <div className="cas-counter mx-4">
-                <FaCalendarAlt className="cas-icon" />
-                <span className="cas-number text-xl font-bold mb-2">Events Conducted (Last Year)</span>
-                <ButtonLink href="./" className="cas-button bg-sky-900 text-gray-50 mt-2">
-                  65
-                </ButtonLink>
+        <div className="max-w-3xl w-full">
+          <h2 className="text-md lg:text-4xl font-bold text-center mb-5">[ Stats ]</h2>
+          <animated.div style={statsAnimation}>
+            <div className="flex justify-around items-center flex-wrap">
+              {statsData.map((stat, index) => (
+                <div key={index} className="text-center mb-6" style={{ width: '100%', maxWidth: '200px' }}>
+                  <CircularProgressbar
+                    value={stat.value}
+                    text={stat.value}
+                    maxValue={50} // Adjust the max value based on your preference
+                    strokeWidth={5} // Adjust the stroke width based on your preference
+                    styles={buildStyles({
+                      textColor: '#333',
+                      pathColor: `#3498db`,
+                      trailColor: '#d6d6d6',
+                    })}
+                  />
+                  <p className="text-lg font-bold mt-2">{stat.label}</p>
+                </div>
+              ))}
             </div>
-          </div>
+          </animated.div>
         </div>
       </div>
-
       <div className="flex flex-wrap justify-center">
           <ButtonLink
             href="https://ieee-ritb-website.vercel.app/collab"

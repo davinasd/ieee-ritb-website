@@ -2,7 +2,6 @@ import Head from 'next/head'
 
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
-import { Hero } from '@/components/Hero'
 
 import { Member } from '@/components/Member'
 
@@ -114,7 +113,7 @@ export default function Home() {
                   name="Anagha Kalyani"
                   designation="Chair"
                   link="https://www.linkedin.com/in/anagha-kalyani-b294b8210"
-                  image="https://drive.google.com/uc?id=1wZ74ARnyCez3WkxupH9luIuNhLVij9tj&export=download"
+                  image="https://drive.google.com/uc?id=1vBINJ5CV6ife6C6XKY2auW6FBxNqaul-&export=download"
                 ></Member>
 
                 <Member
@@ -128,7 +127,7 @@ export default function Home() {
                   name="Smruthi D Sharma"
                   designation="Vice Chair"
                   link="https://www.linkedin.com/in/smruthi-d-sharma-22913b279"
-                  image="https://drive.google.com/uc?id=1qv7-uRi-hfNyqPop-ncHwZKWvwXWuStT&export=view"
+                  image="https://drive.google.com/thumbnail?id=1pffkESGzNWkRh3B6SBuoODMDE4Gii8ys"
                 ></Member>
 
                 <Member
@@ -170,28 +169,28 @@ export default function Home() {
                   name="Jayashree"
                   designation="Member"
                   link="https://www.linkedin.com/in/jayshree-v-j-a1471b23b"
-                  image="https://drive.google.com/uc?id=1xku28mlyl7DdnpCwPV6ykvkjksscc15N&export=view"
+                  image="https://drive.google.com/thumbnail?id=1DHmY1sJ6jbCRrcqjNrlDJTD4JwhD6rwe"
                 ></Member>
 
                 <Member
                   name="Aditi Kataria"
                   designation="Member"
                   link="https://www.linkedin.com/in/aditi-kataria-9502b3279"
-                  image="https://drive.google.com/uc?id=10iv0pXEw7_9vXeQ4VyXaBU-OCn-J8F7-&export=download"
+                  image="https://drive.google.com/thumbnail?id=196WQSl_OB9iGlvTvTPr1htqqidkOmqnk"
                 ></Member>
 
                 <Member
                   name="Harini N"
                   designation="Member"
                   link="https://www.linkedin.com/in/harini-n-844817263"
-                  image="https://drive.google.com/uc?id=1LrZK7M12z7WF8fWM-YaL04h6N2p8M5Tw&export=view"
+                  image="https://drive.google.com/thumbnail?id=1M9KhQD8fJKYjJi_q3yzSc5zxxIu7I9zN"
                 ></Member>
 
                 <Member
                   name="Aiman Naqvi"
                   designation="Member"
                   link="https://www.linkedin.com/in/aiman-n-896240279/"
-                  image="https://drive.google.com/uc?id=1d4n-wt5Q-P3sovIsaRDXO8mVtfMqv6Oo&export=view"
+                  image="https://drive.google.com/thumbnail?id=1aKYTCFxPemln-WbJVgApLLo6KEGmSbPz"
                 ></Member>
               </div>
 

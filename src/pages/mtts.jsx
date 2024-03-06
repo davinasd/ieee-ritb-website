@@ -2,7 +2,6 @@ import Head from 'next/head'
 
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
-import { Hero } from '@/components/Hero'
 
 import { Member } from '@/components/Member'
 
@@ -30,7 +29,7 @@ export default function Home() {
       </Head>
       <Header />
       <main>
-        <div className="relative isolate px-6 pt-14 lg:px-8">
+      <div className="relative isolate px-6 pt-14 lg:px-8 bg-blue-50">
           <div className="mx-auto max-w-6xl py-4 sm:py-6 lg:py-8">
             <div className="">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl mb-10">
@@ -60,7 +59,7 @@ export default function Home() {
                       className="lg:h-128 h-96 w-full object-fill"
                       src={image}
                       alt={index}
-                      width={1795}
+                      width={1745}
                       height={800}
                       objectFit="cover"
                       border-radius="10px"
@@ -101,7 +100,7 @@ export default function Home() {
                   designation="Vice-Chair"
                   link="https://www.linkedin.com/in/prajana-b-47b3b0279"
                   image="https://drive.google.com/uc?id=1NV7HwCBe99sqUMrEpRqfJtkCEJS_If95&export=download">
-                 
+
                 </Member>
 
                 <Member name="Neha Kantikar"
