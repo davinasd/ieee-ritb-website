@@ -67,11 +67,18 @@ function MobileNavigation() {
                     Gallery
                   </Link>
                 </li>
+                
                 <li>
                   <Link href="/faculty" className="block w-full" onClick={() => close()}>
                     Faculty
                   </Link>
                 </li>
+                <li>
+                  <Link href="https://ieee-ritb-website.vercel.app/collab" className="block w-full" onClick={() => close()}>
+                     Collab With US
+                  </Link>
+                </li>
+                
                 <li>
                   <Link href="/contactus" className="block w-full" onClick={() => close()}>
                     Contact Us
@@ -89,7 +96,10 @@ function MobileNavigation() {
 export function Header() {
   const router = useRouter(); 
   return (
+<<<<<<< HEAD
     //<header className="z-50 border border-b bg-blue-50 py-4 shadow-md">
+=======
+>>>>>>> 98fc40c610d351e9c762c2d4c5fe41875abf6bd1
     <header className="z-50 border border-b bg-blue-50 py-4 shadow-sm sticky top-0 !important">
       <div className="mx-auto max-w-6xl px-4 sm:px-4 lg:max-w-4xl flex justify-between items-center">
         <div>
@@ -112,6 +122,11 @@ export function Header() {
             <li className="ml-6 hidden md:block">
               <Link href="/gallery" className={`nav-link ${router.pathname === '/gallery' && 'active'}`}>
                 <b>Gallery</b>
+              </Link>
+            </li>
+            <li className="ml-6 hidden md:block">
+              <Link href="https://ieee-ritb-website.vercel.app/collab" className={`nav-link ${router.pathname === 'https://ieee-ritb-website.vercel.app/collab' && 'active'}`}>
+                <b>Collab with us</b>
               </Link>
             </li>
             <li className="ml-6 hidden md:block">
