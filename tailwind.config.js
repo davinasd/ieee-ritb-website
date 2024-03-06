@@ -33,10 +33,10 @@ module.exports = {
       colors: {
         pri: '#273D62',
       },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--gradient-color-stops))',
+      },
     },
   },
-  plugins: [
-    require('@tailwindcss/typography'),
-    require('@tailwindcss/forms'),
-  ]
+  plugins: [require('@tailwindcss/typography'), require('@tailwindcss/forms')],
 }

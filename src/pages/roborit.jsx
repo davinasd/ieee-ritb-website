@@ -3,6 +3,52 @@ import Head from 'next/head'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
+import { Member } from '@/components/Member'
+
+import img2 from '@/images/RoboRIT/Picture2.jpg'
+import img7 from '@/images/RoboRIT/Picture7.jpg'
+import img4 from '@/images/RoboRIT/Picture4.jpg'
+import img5 from '@/images/RoboRIT/Picture5.jpg'
+import img8 from '@/images/RoboRIT/Picture8.jpg'
+import img9 from '@/images/RoboRIT/Picture9.jpg'
+import img11 from '@/images/RoboRIT/Picture11.jpg'
+import img12 from '@/images/RoboRIT/Picture12.jpg'
+import img15 from '@/images/RoboRIT/Picture15.jpg'
+import img17 from '@/images/RoboRIT/Picture17.jpg'
+import img19 from '@/images/RoboRIT/Picture19.jpg'
+import roborit1 from '@/images/slider_event_images/roborit/roborit1.jpg'
+import roborit2 from '@/images/slider_event_images/roborit/roborit2.jpg'
+import roborit3 from '@/images/slider_event_images/roborit/roborit3.jpg'
+import roborit4 from '@/images/slider_event_images/roborit/roborit4.jpg'
+import roborit5 from '@/images/slider_event_images/roborit/roborit5.jpg'
+import roborit6 from '@/images/slider_event_images/roborit/roborit6.jpg'
+import roborit7 from '@/images/slider_event_images/roborit/roborit7.jpg'
+import roborit8 from '@/images/slider_event_images/roborit/roborit8.jpg'
+import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper'
+import Image from 'next/image'
+import { Swiper, SwiperSlide } from 'swiper/react'
+
+const images = [
+  img2,
+  img4,
+  img5,
+  img7,
+  img8,
+  img9,
+  img11,
+  img12,
+  img15,
+  img17,
+  img19,
+  roborit1,
+  roborit2,
+  roborit3,
+  roborit4,
+  roborit5,
+  roborit6,
+  roborit7,
+  roborit8,
+]
 
 export default function Home() {
   return (
@@ -19,9 +65,40 @@ export default function Home() {
         <div className="relative isolate px-6 pt-14 lg:px-8">
           <div className="mx-auto max-w-6xl py-4 sm:py-6 lg:py-8">
             <div className="text-justify">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+              <h1 className="mb-10 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                 RoboRIT
               </h1>
+              <Swiper
+                spaceBetween={30}
+                effect={'fade'}
+                loop={true}
+                autoHeight={true}
+                centeredSlides={true}
+                autoplay={{
+                  delay: 2500,
+                  disableOnInteraction: false,
+                }}
+                pagination={{
+                  clickable: true,
+                }}
+                navigation={true}
+                modules={[Autoplay, Pagination, Navigation, EffectFade]}
+                className="mySwiper"
+              >
+                {images.map((image, index) => (
+                  <SwiperSlide key={index}>
+                    <Image
+                      className="lg:h-128 h-96 w-full object-fill"
+                      src={image}
+                      alt={index}
+                      width={1795}
+                      height={850}
+                      objectFit="cover"
+                      border-radius="10px"
+                    />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 The IEEE RoBoRIT is a professional society under the umbrella of
                 the Ramaiah Institue Of Technology. It focuses on promoting the
@@ -64,19 +141,18 @@ export default function Home() {
               </h1>
               <div>
                 <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
-                  1. Hardware hackathon
+                  1. Hard-WAR hackathon
                 </h2>
                 <p className="mt-6 text-base text-gray-600">
-                  <b>What is this workshop about?</b>
+                  <b>About the event: </b>
                   <br></br>
-                  Firefighting robots also known as vision guided robots, are
-                  capable of detecting the fire and extinguishing it. Through
-                  this hands-on workshop, you will learn to build your very own
-                  fire fighting robot that uses digital IR sensors to detect the
-                  fire and move in that direction to put it off using a DC fan.
-                  To ease the programming learning experience, the course is
-                  also equipped with scratch based block programming modules
-                  that make programming the robot super easy even for beginners.
+                  HARD-WAR HACKATHON is the first hardware hackathon being
+                  conducted in MSRIT by ROBO-RIT. This Hackathon is not only
+                  about coding but giving more importance to the hardware as
+                  well. Teams were given a duration of 7 hrs to build a project
+                  using any Hardware components. At the end of the time
+                  duration, they would be judged based on various factors of the
+                  project.
                 </p>
                 <p className="mt-6 text-lg">Phase 1:</p>
                 <p className="text-base text-gray-600">
@@ -113,7 +189,7 @@ export default function Home() {
                 </ul>
               </div>
               <div>
-                <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 text-left">
+                <h2 className="mt-10 text-left text-2xl font-bold tracking-tight text-gray-900">
                   2. Hands-on workshop of Firefighting Robot
                 </h2>
                 <p className="mt-6 text-base text-gray-600">
@@ -167,7 +243,7 @@ export default function Home() {
                 <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
                   3. Proteus workshop
                 </h2>
-                <p className="mt-6 text-base text-gray-600">
+                <p className="mt-6 text-base text-gray-500">
                   <b>
                     Workshop was organized to help students gain knowledge on
                     simulation and PCB Design of the circuit. The students will
@@ -176,20 +252,124 @@ export default function Home() {
                   </b>
                 </p>
               </div>
-              <div className="mt-10 flex items-center">
-                <iframe
-                  className="w-full"
-                  height={1080}
-                  src="https://docs.google.com/document/d/e/2PACX-1vTynj0Vv6kt0GLOBjuulOJnsyh2yEXtifc26SijHMl7W5DWaejn-7SfpzI9nJoQUg/pub?embedded=true"
-                ></iframe>
-              </div>
-              <div className="mt-10 flex items-center justify-center gap-x-6">
-                <a
-                  href="#"
-                  className="text-sm font-semibold leading-6 text-gray-900"
-                >
-                  Learn more <span aria-hidden="true">→</span>
-                </a>
+
+              <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+                Members
+              </h1>
+
+              <div className="mt-10 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+              <Member
+                  name="Pavan Kumar K."
+                  designation="Chair"
+                  link="https://www.linkedin.com/in/pavan-kumar-k-036a85202/"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/PAVAN%20KUMAR%20K_%201MS21CS088.JPG"
+                ></Member>
+
+                <Member
+                  name="Mohammad Sarmuddin T."
+                  designation="Vice-Chair"
+                  link="None"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Mohammed%20Sarmuddin(1MS22ME057).jpg"
+                ></Member>
+
+                <Member
+                  name="Jeeva M."
+                  designation="Secretary"
+                  link="https://www.linkedin.com/in/jeeva-m-82b66322a"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/JEEVA_1MS21EC052.jpg"
+                ></Member>
+
+                <Member
+                  name="Sathvik Rao"
+                  designation="Tech Head"
+                  link="http://linkedin.com/in/sathvik-rao-2aa803259"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Sathvik%20Rao_1MS22EC117.jpg"
+                ></Member>
+
+                <Member
+                  name="S. Meena Kumari"
+                  designation="Member"
+                  link="https://www.linkedin.com/mwlite/in/meena-kumari-subramanyam-b28b56229"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/MEENA%20KUMARI%201MS21CS109%20.jpg"
+                ></Member>
+                
+                <Member
+                  name="Shaaru U."
+                  designation="Member"
+                  link="https://www.linkedin.com/in/shaaru-u-514976227"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Shaaru_U_1MS21EI050.jpg"
+                ></Member>
+                
+                <Member
+                  name="Hemanth Kumar NVS"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/hemanth-kumar-394a96249?utm_source=share&utm_campaign=share_via&utm_content="
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Hemanth%20Kumar%20NVS_1MS22AD027.JPG"
+                ></Member>
+
+                <Member
+                  name="Nagashree N. S."
+                  designation="Member"
+                  link="https://www.linkedin.com/in/nagashree-n-s-55a4242b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/IMG_20231126_013217.jpg"
+                ></Member>
+
+                <Member
+                  name="Mohit Kumar"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/mohit-kumar-00903b293/"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Mohit%20Kumar_1MS23IS033-T.png"
+                ></Member>
+
+                <Member
+                  name="Aniket Belgaonkar"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/aniket-belgaonkar-63098b293/"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/DSC_0059.jpeg"
+                ></Member>
+
+                <Member
+                  name="Kushi Kaveramma K.S."
+                  designation="Member"
+                  link="https://www.linkedin.com/in/kushi-ks-8b56422b2"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Kushi%20Kaveramma%20K.S_1MS23CS103-T.jpeg"
+                ></Member>
+
+                <Member
+                  name="Ryan Gomez"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/ryan-gomez-a1a216276/"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Ryan%20Gomez%201MS23EC055-T.jpeg"
+                ></Member>
+
+                <Member
+                  name="Darshan Satish Kumar"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/darshan-satish-kumar-907a56268/"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Darshan%20Satish%20Kumar%2C%201MS22ET010%20.jpg"
+                ></Member>
+                
+                <Member
+                  name="Chirag P.V."
+                  designation="Member"
+                  link="https://in.linkedin.com/in/chirag-p-v-9290002b3"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/CHIRAG%20P%20V%201MS23ET404-T.jpg"
+                ></Member>
+
+                <Member
+                  name="Jai Vishnu D.K."
+                  designation="Member"
+                  link="https://www.linkedin.com/in/jai-vishnu-8b17511a3/"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Jai%20Vishnu%20DK_1MS23EC046.jpg"
+                ></Member>
+                
+                <Member
+                  name="Illaquan Rajesh Indu"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/ilaqquan-r-i-1523332b3/"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Ilaqquan%20Rajesh%20Indu-%20%201MS22EC050%20.jpg"
+                ></Member>
+                
               </div>
             </div>
           </div>

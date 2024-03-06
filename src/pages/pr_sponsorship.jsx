@@ -3,6 +3,7 @@ import Head from 'next/head'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
+import { Member } from '@/components/Member'
 
 export default function Home() {
   return (
@@ -25,10 +26,10 @@ export default function Home() {
                 IEEE PR AND SPONSORSHIP
               </h1>
               <div>
-                <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+                <h1 className="mt-10 text-lg font-semibold tracking-tight text-gray-900">
                   Q. What does your chapter do?
                 </h1>
-                <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+                <h2 className="mt-10 text-lg tracking-tight text-gray-900">
                   Ans. The Public Relations and Sponsorship chapter of IEEE at
                   RITB plays a dual role. We are responsible for promoting IEEE
                   events and ensuring maximum participation through effective
@@ -36,13 +37,128 @@ export default function Home() {
                   and secure sponsorships from companies to support and enhance
                   our events.
                 </h2>
-                <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+                <h1 className="mt-10 text-lg font-semibold tracking-tight text-gray-900">
                   Q. What are your chapter’s present year goals?
                 </h1>
-                <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
-                Ans. Our chapter’s present year goals involve two key areas. Firstly, we aim to strengthen our public relations efforts by increasing awareness and engagement among students through targeted promotional campaigns. Secondly, we strive to establish strategic partnerships with companies to secure sponsorships that enhance the quality and reach of our events.
+                <h2 className="mt-10 text-lg tracking-tight text-gray-900">
+                  Ans. Our chapter’s present year goals involve two key areas.
+                  Firstly, we aim to strengthen our public relations efforts by
+                  increasing awareness and engagement among students through
+                  targeted promotional campaigns. Secondly, we strive to
+                  establish strategic partnerships with companies to secure
+                  sponsorships that enhance the quality and reach of our events.
                 </h2>
               </div>
+
+              <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+                Members
+              </h1>
+
+              <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+  {/* Public Relations Head */}
+  <Member
+    name="Shireen Dash"
+    designation="Public Relations Head"
+    link="https://www.linkedin.com/in/shireen-dash-300b96278/"
+    image="https://drive.google.com/uc?id=1vBINJ5CV6ife6C6XKY2auW6FBxNqaul-&export=download">
+  </Member>
+
+  {/* Public Relations Co-Head */}
+  <Member
+    name="Nidhi Bishnoi"
+    designation="Public Relations Co-Head"
+    link="https://www.linkedin.com/in/nidhi-bishnoi12"
+    image="https://drive.google.com/file/d/1-aDTxYBJPtEdCv4IrOZ8JOy2Isg5IKHX/view?usp=drive_link">
+  </Member>
+
+  {/* Sponsorship Head */}
+  <Member
+    name="Prutvi Prakash Shetty"
+    designation="Sponsorship Head"
+    link="https://www.linkedin.com/in/prutvi-shetty-631420240"
+    image="https://drive.google.com/file/d/1JonX1ePcDcZYzhppZGpvXiNFWg0v27BC/view?usp=drive_link">
+  </Member>
+
+  {/* Public Relations Vice-Head */}
+  <Member
+    name="Ranjana Rajesh"
+    designation="Public Relations Vice-Head"
+    link="https://www.linkedin.com/in/ranjana-rajesh-454b91278"
+    image="https://drive.google.com/file/d/1pRdFGPmsIErLHB0QizNmaMTltsYxvb1_/view?usp=drive_link">
+  </Member>
+
+  {/* Members */}
+  <Member
+    name="Shobhit Srivastava"
+    link="https://www.linkedin.com/in/shobhit-srivastava-65332b288"
+    image="https://drive.google.com/file/d/1cq-vVfxJU_4N6jfafb4e0nMfZmSMshbp/view?usp=drive_link">
+
+  </Member>
+
+  <Member
+    name="Annliya Biju"
+    link="https://www.linkedin.com/in/annliya-b-317920284"
+    image="https://drive.google.com/file/d/187OPSvUKJR5xTvVqknHEI2B9lBKQV2aC/view?usp=drive_link">
+
+  </Member>
+
+  <Member
+    name="Siddharth Lunawat"
+    link="http://paul-www.linkedin.com/in/megha-paul-2757b921a"
+    image="https://drive.google.com/file/d/1NFPFLownO6jzrl6V0fIDbfcBoGmU-a5O/view?usp=drive_link">
+
+  </Member>
+
+  <Member
+    name="Megha Paul"
+    link="http://paul-www.linkedin.com/in/megha-paul-2757b921a"
+    image="https://drive.google.com/file/d/1U1R2AJioMHbzfYSotFAOnEpU3BfK_Hz1/view?usp=drive_link">
+
+  </Member>
+
+  <Member
+    name="Diyaa Prasad"
+    link="https://www.linkedin.com/in/diyaa-prasad-b132a6299"
+    image="https://drive.google.com/file/d/1CJWBIHAKxVOKOSg9-MsseR5Om75QnN_S/view?usp=drive_link">
+
+  </Member>
+
+  <Member
+    name="Abhiraj Paralkar"
+    link="https://www.linkedin.com/in/abhiraj-paralkar-64613a2a6/"
+    image="https://drive.google.com/uc?id=16-xNXqYNDVTtcPph5CNV001j0fFlBoOV&export=view">
+
+  </Member>
+
+  <Member
+    name="Tausif Malek"
+    link="https://www.linkedin.com/in/tausif-malek-1469a3293/"
+    image="https://drive.google.com/file/d/1IGldK3LfqQn8LKPCkA6ASF5kgqXewYMP/view?usp=drive_link">
+
+  </Member>
+
+  <Member
+    name="Abhishek Manoj"
+    link="http://www.linkedin.com/in/abhishek-manoj-4383512b2"
+    image="https://drive.google.com/file/d/1MGTQDaSKpLRHrb69d-vVCDCIvGU3qLO1/view?usp=drive_link">
+
+  </Member>
+
+  <Member
+    name="Zayaan Hussain"
+    link="https://www.linkedin.com/in/zayaan-hussain-21a9472b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    image="https://drive.google.com/file/d/1dc3_l-F-h72rmW8hE63euQ2AOfZgeF_1/view?usp=drive_link">
+
+  </Member>
+
+  <Member
+    name="Trisha N Iyer"
+    link="https://www.linkedin.com/in/trisha-n-iyer-b506192b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    image="https://drive.google.com/file/d/1i-4vitPwFgYygnpFRoHBplmqKSdborta/view?usp=drive_link">
+
+  </Member>
+</div>
+
 
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a

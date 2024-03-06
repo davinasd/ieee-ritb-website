@@ -8,27 +8,13 @@
 .object-fill {
   -o-object-fit: fill;
   object-fit: fill;
-  border-radius: 20px;
-}
-.swiper {
-  padding: 10px !important;
-}
-@media (min-width: 1024px) {
-  .swiper {
-    padding: 40px !important;
-  }
+  border-radius: 10px;
 }
 .neumorphism {
-  /* box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff; */
-  /* box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45),
-    5px 5px 9px rgba(94, 104, 121, 0.3); */
-  /* box-shadow: -6px -6px 20px rgba(255,255,255,1), 6px 6px 20px rgba(0,0,0,0.1); */
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .neumorphismbg {
-  /* background: #dde1e7; */
   background: #fefefe;
-  /* background: #ebf5fc; */
 }
 .footerbg {
   background-color: #1f2937;
@@ -51,14 +37,26 @@
   -webkit-box-shadow: 3px 3px 15px 0px rgba(255, 255, 255, 0.4);
   box-shadow: 3px 3px 15px 0px rgba(255, 255, 255, 0.4);
 }
+.nav-link {
+  padding: 0.5rem 1rem;
+  margin: 0;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #4a7fc4; 
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #082157; 
+}
+
 .button {
   text-transform: uppercase;
   letter-spacing: 2.5px;
   font-weight: 500;
-  /* color: #000; */
-  /* background-color: #fff; */
   border: none;
-  /* border-radius: 25px; */
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
   cursor: pointer;
@@ -82,4 +80,26 @@
 
 .border-n {
   border-width: 1px;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  /* background: orange; */
+  /* background: linear-gradient(45deg, #00b5f5, #002a8f); */
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  /* box-shadow: 0 5px 5px rgb(200, 200, 200, 0.4); */
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+}
+.back-to-top-dark {
+  box-shadow: 0 5px 10px rgb(0, 0, 0);
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+}
+
+.back-to-top:hover {
+  background: linear-gradient(105deg, #002a8f, #00b5f5);
 }

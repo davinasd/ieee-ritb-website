@@ -3,6 +3,19 @@ import Head from 'next/head'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
+import { Member } from '@/components/Member'
+import sc1 from '@/images/slider_event_images/sc/sc1.jpg'
+import sc2 from '@/images/slider_event_images/sc/sc2.jpg'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import {
+  Autoplay,
+  Pagination,
+  Navigation,
+  EffectFade,
+  Controller,
+} from 'swiper'
+import Image from 'next/image'
+const images = [sc1, sc2]
 
 export default function Home() {
   return (
@@ -20,16 +33,49 @@ export default function Home() {
       <main>
         <div className="relative isolate px-6 pt-14 lg:px-8">
           <div className="mx-auto max-w-6xl py-4 sm:py-6 lg:py-8">
-            <div className="text-justify">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+            <div className="text-left">
+              <h1 className="mb-8 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                 IEEE SENSOR COUNCIL
               </h1>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
+              <Swiper
+                spaceBetween={30}
+                effect={'fade'}
+                loop={true}
+                autoHeight={true}
+                centeredSlides={true}
+                autoplay={{
+                  delay: 2500,
+                  disableOnInteraction: false,
+                }}
+                pagination={{
+                  clickable: true,
+                }}
+                navigation={true}
+                modules={[Autoplay, Pagination, Navigation, EffectFade]}
+                className="mySwiper"
+              >
+                {images.map((image, index) => (
+                  <SwiperSlide key={index}>
+                    <Image
+                      className="lg:h-128 h-96 w-full object-fill"
+                      src={image}
+                      alt={index}
+                      width={1795}
+                      height={850}
+                      objectFit="cover"
+                      border-radius="10px"
+                    />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+              <p className="mt-6 text-justify text-lg leading-8 text-gray-600">
                 Welcome to the IEEE Sensor Student Chapter at RIT. We are a
                 vibrant and enthusiastic community of engineering students
                 passionate about the field of sensors and its applications. Our
                 chapter provides a platform for students to delve into the world
-                of sensor technologies, ranging from MEMS to IoT devices. <br /><br /><br />
+                of sensor technologies, ranging from MEMS to IoT devices. <br />
+                <br />
+                <br />
                 Through workshops, guest lectures, and hands-on projects, we aim
                 to enhance understanding and foster innovation in the field.
                 Join us to explore the fascinating realm of sensing, data
@@ -37,6 +83,89 @@ export default function Home() {
                 possibilities in the realm of sensing technology.
                 <br></br>
               </p>
+
+              <h1 className="mb-10 mt-10 text-2xl font-bold tracking-tight text-gray-900">
+                Members
+              </h1>
+
+              <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+                <Member
+                  name="Souhadra Shrivastava"
+                  designation="Chair"
+                  link="#"
+                  image="#"
+                ></Member>
+
+                <Member
+                  name="Tanish P Hegde"
+                  designation="Secretary"
+                  link="#"
+                  image="https://drive.google.com/thumbnail?id=1Gh1IShu0AG3wjKhOVEEsUNMCWtMA_Aia"
+                ></Member>
+
+                <Member
+                  name="Chinmay Jindal"
+                  designation="Member"
+                  link="#"
+                  image="https://drive.google.com/thumbnail?id=1zyDv1Of0aNTY71n9HkW3GB6fjfjcSDND"
+                ></Member>
+
+                <Member
+                  name="Aruna Arunachalam"
+                  designation="Member"
+                  link="#"
+                  image="https://drive.google.com/thumbnail?id=1RNEFqm_pM-cUoPeHvSE45cFOjZ45Ztqq"
+                ></Member>
+
+                <Member
+                  name="Suhas B S"
+                  designation="Member"
+                  link="#"
+                  image="https://drive.google.com/thumbnail?id=1U48WRdUBaVwmyeuaEthnUzj6_lrNWJdM"
+                ></Member>
+
+                <Member
+                  name="Siddharth Lunawat"
+                  designation="Member"
+                  link="#"
+                  image="https://drive.google.com/thumbnail?id=1NQ5lKj0sb2cx_GPOpXpggS77q9qU1z1z"
+                ></Member>
+
+                <Member
+                  name="Adithi Purushothama"
+                  designation="Member"
+                  link="#"
+                  image="https://drive.google.com/thumbnail?id=1D51V68oN4GqV6U2bPYA4b4mM9pGf8UvF"
+                ></Member>
+
+                <Member
+                  name="Shree Lakshmi S Shekar"
+                  designation="Member"
+                  link="#"
+                  image="https://drive.google.com/thumbnail?id=1-amXgcxNqIrsNxiTFmD4mTuiEArk9KlJ"
+                ></Member>
+
+                <Member
+                  name="Likhitha C A"
+                  designation="Member"
+                  link="#"
+                  image="https://drive.google.com/thumbnail?id=1dFYD9GrQ_h5Ob3QoaXhT42D1yZcAxpxd"
+                ></Member>
+
+                <Member
+                  name="Kaustubh Kumar"
+                  designation="Member"
+                  link="#"
+                  image="https://drive.google.com/thumbnail?id=1EGsdTmun5I2OHtqWjfpBwI4lNTmqDvXL"
+                ></Member>
+
+                <Member
+                  name="Archisman Hazra"
+                  designation="Member"
+                  link="#"
+                  image="https://drive.google.com/thumbnail?id=1qnFeR7l3kOdyj8uldbnK6UFnxyH1VDqA"
+                ></Member>
+              </div>
 
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a

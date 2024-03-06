@@ -1,12 +1,13 @@
 import Image from 'next/image'
+import logoimg from '@/images/logos/ieee_icon.png'
 export function Logo(props) {
   return (
     <div className="flex items-center">
       <Image
-        src="https://avatars.githubusercontent.com/u/133042598?s=200&v=4"
+        src={logoimg}
         alt="IEEE Computational Intelligence Society"
-        width={100}
-        height={100}
+        width={105}
+        height={78}
       />
     </div>
   )

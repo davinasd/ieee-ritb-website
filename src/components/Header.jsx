@@ -1,12 +1,13 @@
-import { Fragment } from 'react'
-import Link from 'next/link'
-import { Popover, Transition } from '@headlessui/react'
-import clsx from 'clsx'
+import { Fragment } from 'react';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+import { Popover, Transition } from '@headlessui/react';
+import clsx from 'clsx';
 
-import { ButtonLink } from '@/components/Button'
-import { Container } from '@/components/Container'
-import { Logo } from '@/components/Logo'
-import { Image } from 'next/image'
+import { ButtonLink } from '@/components/Button';
+import { Container } from '@/components/Container';
+import { Logo } from '@/components/Logo';
+import { Image } from 'next/image';
 
 function MobileNavigation() {
   return (
@@ -62,17 +63,18 @@ function MobileNavigation() {
                 className="absolute inset-x-0 top-full mt-4 origin-top space-y-4 rounded-2xl bg-white p-6 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
               >
                 <li>
-                  <Link href="/contactus">
-                    <a className="block w-full" onClick={() => close()}>
-                      Contact Us
-                    </a>
+                  <Link href="/gallery" className="block w-full" onClick={() => close()}>
+                    Gallery
                   </Link>
                 </li>
                 <li>
-                  <Link href="/roborit">
-                    <a className="block w-full" onClick={() => close()}>
-                      RoboRIT
-                    </a>
+                  <Link href="/faculty" className="block w-full" onClick={() => close()}>
+                    Faculty
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/contactus" className="block w-full" onClick={() => close()}>
+                    Contact Us
                   </Link>
                 </li>
               </Popover.Panel>
@@ -81,58 +83,54 @@ function MobileNavigation() {
         </>
       )}
     </Popover>
-  )
+  );
 }
 
 export function Header() {
+  const router = useRouter(); 
   return (
-    <header className="py-4 shadow-md">
-      <Container>
-        <nav className="relative z-50 text-sm">
+    <header className="z-50 border border-b bg-blue-50 py-4 shadow-md">
+      <div className="mx-auto max-w-6xl px-4 sm:px-4 lg:max-w-4xl flex justify-between items-center">
+        <div>
+          <Link href="/">
+            <Logo className="h-10 w-auto" />
+          </Link>
+        </div>
+        <nav className="text-sm">
           <ul className="flex items-center">
-            <li>
-              <Link href="/">
-                <a>
-                  <span className="sr-only">Home</span>
-                  <Logo className="h-10 w-auto" />
-                </a>
+            <li className="ml-12 hidden md:block">
+              <Link href="/" className={`nav-link ${router.pathname === '/' && 'active'}`}>
+                <b>Home</b>
               </Link>
             </li>
-            <li className="ml-12 mt-4 hidden md:block">
-              <Link href="/">
-                <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                  <b>Home</b>
-                </a>
+            <li className="ml-6 hidden md:block">
+              <Link href="/faculty" className={`nav-link ${router.pathname === '/faculty' && 'active'}`}>
+                <b>Faculty</b>
               </Link>
             </li>
-            <li className="ml-12 mt-4 hidden md:block">
-              <Link href="/roborit">
-                <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                  <b>RoboRIT</b>
-                </a>
+            <li className="ml-6 hidden md:block">
+              <Link href="/gallery" className={`nav-link ${router.pathname === '/gallery' && 'active'}`}>
+                <b>Gallery</b>
               </Link>
             </li>
-            <li className="ml-6 mt-4 hidden md:block">
-              <Link href="/contactus">
-                <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                  Contact Us
-                </a>
+            <li className="ml-6 hidden md:block">
+              <Link href="/contactus" className={`nav-link ${router.pathname === '/contactus' && 'active'}`}>
+                <b>Contact Us</b>
               </Link>
             </li>
-            <li className="ml-auto md:ml-8 lg:hidden">
-              <ButtonLink href="/" className="bg-[#273D61]">
-                <span>
-                  <span className="hidden lg:inline"></span>
-                  Home
-                </span>
-              </ButtonLink>
-            </li>
-            <li className="ml-5 -mr-1 md:hidden">
+            <li className="-mr-1 ml-5 md:hidden">
               <MobileNavigation />
             </li>
           </ul>
         </nav>
-      </Container>
+      </div>
     </header>
-  )
+  );
 }
+
+
+
+
+
+
+
