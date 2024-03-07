@@ -12,7 +12,6 @@ import head3 from '@/images/members/head(3).jpg'
 
 import { ButtonLink } from '@/components/Button'
 import { SectionHeading } from '@/components/SectionHeading'
-
 const faculty_head = [
   {
     name: 'Dr. Sujatha B',
@@ -97,8 +96,11 @@ export default function officebearers() {
           </div>
           <div className="mb-6 flex flex-col items-center justify-center gap-8 md:flex-row lg:mb-16">
             {faculty_head.map((member) => (
-              <div className="overflow-hidden rounded-lg border border-blue-100 shadow-lg" key={member.name}>
-                <div className="bg-white p-6">
+              <div
+                key={member.name}
+                className="overflow-hidden rounded-lg border border-blue-100 shadow-lg mb-4 md:mb-0 md:mr-4"
+              >
+                <div className="bg-white p-4">
                   <div className="flex justify-center">
                     <Image
                       className="flex-shrink-0 rounded-lg object-cover"
@@ -107,49 +109,45 @@ export default function officebearers() {
                       height="200px"
                     />
                   </div>
-                  <div className="justify-between">
-                    <div className="flex-1">
-                      <p className="text-md flex justify-center pt-4 font-medium text-slate-800">
-                        {member.designation}
-                      </p>
-                      <div className="mt-2 block">
-                        <p className="flex justify-center text-xl font-semibold text-gray-900">
-                          {member.name}
-                        </p>
-                        <a href={member.link}>
-                          <p className="text-md flex justify-center font-medium text-blue-500 underline">
-                            View Profile
-                          </p>
-                        </a>
-                      </div>
-                    </div>
+                  <div className="mt-2 text-center">
+                    <p className="text-md font-medium text-slate-800">
+                      {member.designation}
+                    </p>
+                    <p className="text-xl font-semibold text-gray-900">
+                      {member.name}
+                    </p>
+                    <a href={member.link} className="text-md font-medium text-blue-500 underline">
+                      View Profile
+                    </a>
                   </div>
                 </div>
               </div>
             ))}
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="flex flex-col items-center justify-center gap-8 md:flex-row lg:mb-16">
             {faculty_details.map((member) => (
-              <div className="w-full p-2" key={member.name}>
-                <a href={member.link}>
-                  <div className="flex flex-col h-full cursor-pointer items-center rounded-lg border border-gray-200 bg-white p-4 shadow-md hover:bg-blue-100 hover:shadow">
+              <div
+                key={member.name}
+                className="overflow-hidden rounded-lg border border-blue-100 shadow-lg mb-4 md:mb-0 md:mr-4"
+              >
+                <div className="bg-white p-4">
+                  <div className="flex justify-center">
                     <Image
-                      alt="team"
-                      className="mr-4 h-16 w-16 flex-shrink-0 rounded-md bg-gray-100 object-cover object-center"
+                      className="flex-shrink-0 rounded-lg object-cover"
                       src={member.image}
-                      height={200}
-                      width={200}
+                      width="200px"
+                      height="200px"
                     />
-                    <div className="flex-grow">
-                      <h2 className="text-center font-semibold text-gray-900">
-                        {member.name}
-                      </h2>
-                      <p className="text-center text-gray-500">
-                        Chapter: <b>{member.chapter}</b>
-                      </p>
-                    </div>
                   </div>
-                </a>
+                  <div className="mt-2 text-center">
+                    <p className="text-xl font-semibold text-gray-900">
+                      {member.name}
+                    </p>
+                    <a href={member.link} className="text-md font-medium text-blue-500 underline">
+                      View Profile
+                    </a>
+                  </div>
+                </div>
               </div>
             ))}
           </div>

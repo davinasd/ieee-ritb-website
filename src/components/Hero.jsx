@@ -127,7 +127,8 @@ export function Hero() {
     { label: 'Events Conducted (Last Year)', value: 65 },
   ];
 
-
+  const images = [img1, img2, img3, img4, img5, img6, img7];
+  const images1 = [ img10, img11, img12, img13];
 
   return (
     <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white text-gray-800">
@@ -172,7 +173,7 @@ export function Hero() {
       </div>
 
       <Container className="pb-16 pt-5 text-justify lg:pt-8">
-        <div className="mx-auto max-w-5xl mt-10 grid grid-cols-1 gap-6 lg:grid-cols-4">
+        
           {/* Content */}
           <div className="col-span-1 lg:col-span-2">
             <h1 className="text-xl lg:text-5xl text-center font-bold mb-7 ">
@@ -191,61 +192,42 @@ export function Hero() {
             </p>
           </div>
 
-          <div className="grid-container">
-  {images1.map((image, index) => (
-    <img
-      key={image.src}
-      src={image.src}
-      alt={image.alt}
-      className={`grid-item ${index === 0 ? 'large-image' : ''} ${
-        index < 2 ? 'first-column' : 'second-column',
-        index < 2 ? 'first-row' : 'second-row'
-      }`
-      
-    
-    }
-    />
-  ))}
-  <style jsx>{`
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr); /* Two columns */
-      gap: 16px; /* Adjust the gap as needed */
-    }
-
-    .grid-item {
-      width: 300px; /* Take full width of the container */
-      max-width: 400px; /* Set maximum width */
-      height: auto; /* Maintain aspect ratio */
-      max-height: 600px; /* Set max height as needed */
-      object-fit: cover; /* Cover the container while maintaining aspect ratio */
-      border-radius: 8px; /* Add rounded corners */
-    }
-
-    .large-image {
-      width: 300px; /* Take full width */
-      height: 200px; /* Set a larger height for the first image */
-
-
-    .first-column {
-      grid-column: 1; /* Place in the first column */
-    }
-
-    .second-column {
-      grid-column: 2; /* Place in the second column */
-    }
-
-    .first-row {
-      grid-row: 1; /* Place in the first column */
-    }
-
-    .second-row {
-      grid-row: 2; /* Place in the second column */
-    }
-  `}</style>
+          <div className="mySwiper">
+          <div className="mx-auto max-w-2xl p-4">
+        <Swiper
+          spaceBetween={30}
+          effect={'fade'}
+          loop={true}
+          autoHeight={true}
+          centeredSlides={true}
+          autoplay={{
+            delay: 5000,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          keyboard={true}
+          modules={[Autoplay, Pagination, Navigation, EffectFade, Keyboard]}
+          className="mySwiper"
+        >
+          {images1.map((image, index) => (
+            <SwiperSlide key={index}>
+              <Image
+                className="h-auto w-full rounded-lg shadow-lg"
+                src={image}
+                alt={index + 'image'}
+                width={1920}
+                height={1080}
+                objectFit="cover"
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
 </div>
+  
 
-</div>
 
 
 

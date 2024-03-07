@@ -10,6 +10,8 @@ import { Logo } from '@/components/Logo';
 import { Image } from 'next/image';
 
 function MobileNavigation() {
+  const router = useRouter();
+
   return (
     <Popover>
       {({ open, close }) => (
@@ -60,21 +62,26 @@ function MobileNavigation() {
             >
               <Popover.Panel
                 as="ul"
-                className="absolute inset-x-0 top-full mt-4 origin-top space-y-4 rounded-2xl bg-white p-6 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
+                className="absolute inset-x-0 mt-[1rem] origin-top space-y-4 rounded-2xl bg-white p-6 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5 z-50"
               >
                 <li>
-                  <Link href="/gallery" className="block w-full" onClick={() => close()}>
-                    Gallery
+                  <Link href="/" className={`block w-full mob-button ${router.pathname === '/' && 'active'}`} onClick={() => close()}>
+                    <b>Home</b>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/faculty" className="block w-full" onClick={() => close()}>
-                    Faculty
+                  <Link href="/faculty" className={`block w-full mob-button ${router.pathname === '/faculty' && 'active'}`} onClick={() => close()}>
+                   <b>Faculty</b> 
                   </Link>
                 </li>
                 <li>
-                  <Link href="/contactus" className="block w-full" onClick={() => close()}>
-                    Contact Us
+                  <Link href="/gallery" className={`block w-full mob-button ${router.pathname === "/gallery" && 'active'}`} onClick={() => close()}>
+                   <b>Gallery</b> 
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/contactus" className={`block w-full mob-button ${router.pathname === '/contactus' && 'active'}`} onClick={() => close()}>
+                   <b>Contact Us</b> 
                   </Link>
                 </li>
               </Popover.Panel>
@@ -87,7 +94,8 @@ function MobileNavigation() {
 }
 
 export function Header() {
-  const router = useRouter(); 
+  const router = useRouter();
+  
   return (
     <header className="z-50 border border-b bg-blue-50 py-4 shadow-sm sticky top-0 !important">
       <div className="mx-auto max-w-6xl px-4 sm:px-4 lg:max-w-4xl flex justify-between items-center">
@@ -118,6 +126,7 @@ export function Header() {
                 <b>Contact Us</b>
               </Link>
             </li>
+            {/* Mobile Navigation */}
             <li className="-mr-1 ml-5 md:hidden">
               <MobileNavigation />
             </li>
@@ -127,10 +136,3 @@ export function Header() {
     </header>
   );
 }
-
-
-
-
-
-
-
