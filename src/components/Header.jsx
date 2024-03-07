@@ -89,7 +89,7 @@ function MobileNavigation() {
 export function Header() {
   const router = useRouter(); 
   return (
-    <header className="z-50 border border-b bg-blue-50 py-4 shadow-md">
+    <header className="z-50 border border-b bg-blue-50 py-4 shadow-sm sticky top-0 !important">
       <div className="mx-auto max-w-6xl px-4 sm:px-4 lg:max-w-4xl flex justify-between items-center">
         <div>
           <Link href="/">

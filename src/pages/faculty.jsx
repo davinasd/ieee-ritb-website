@@ -12,18 +12,13 @@ import head3 from '@/images/members/head(3).jpg'
 
 import { ButtonLink } from '@/components/Button'
 import { SectionHeading } from '@/components/SectionHeading'
+
 const faculty_head = [
   {
     name: 'Dr. Sujatha B',
     designation: 'Student Branch Counselor',
     link: 'https://msrit.edu/department/faculty-detail.html?dept=ece&ID=5',
     image: head2,
-  },
-  {
-    name: 'Dr. Annapurna Patil',
-    designation: 'Student Branch Advisor',
-    link: 'https://msrit.edu/department/faculty-detail.html?dept=cse&ID=1',
-    image: head1,
   },
   {
     name: 'Dr. Shobha K R',
@@ -93,36 +88,36 @@ export default function officebearers() {
         <title>Faculty Members - IEEE | Ramaiah Institute of Technology</title>
       </Head>
       <Header />
-      <section class="bg-blue-50">
-        <div class="mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-8">
-          <div class="mx-auto mb-8 max-w-screen-sm text-center lg:mb-16">
-            <h2 class="mb-4 text-2xl font-bold tracking-tight text-gray-900">
-              Faculty Members of <span class="text-sky-800">IEEE RITB</span>
+      <section className="bg-blue-50">
+        <div className="mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-8">
+          <div className="mx-auto mb-8 max-w-screen-sm text-center lg:mb-16">
+            <h2 className="mb-4 text-2xl font-bold tracking-tight text-gray-900">
+              Faculty Members of <span className="text-sky-800">IEEE RITB</span>
             </h2>
           </div>
-          <div class="mb-6 flex flex-col items-center justify-center gap-8 md:flex-row lg:mb-16">
+          <div className="mb-6 flex flex-col items-center justify-center gap-8 md:flex-row lg:mb-16">
             {faculty_head.map((member) => (
-              <div class="overflow-hidden rounded-lg border border-blue-100 shadow-lg">
+              <div className="overflow-hidden rounded-lg border border-blue-100 shadow-lg" key={member.name}>
                 <div className="bg-white p-6">
-                  <div class="flex justify-center">
+                  <div className="flex justify-center">
                     <Image
-                      class="flex-shrink-0 rounded-lg object-cover"
+                      className="flex-shrink-0 rounded-lg object-cover"
                       src={member.image}
                       width="200px"
                       height="200px"
                     />
                   </div>
-                  <div class="justify-between">
-                    <div class="flex-1">
-                      <p class="text-md flex justify-center pt-4 font-medium text-slate-800">
+                  <div className="justify-between">
+                    <div className="flex-1">
+                      <p className="text-md flex justify-center pt-4 font-medium text-slate-800">
                         {member.designation}
                       </p>
-                      <div class="mt-2 block">
-                        <p class="flex justify-center text-xl font-semibold text-gray-900">
+                      <div className="mt-2 block">
+                        <p className="flex justify-center text-xl font-semibold text-gray-900">
                           {member.name}
                         </p>
                         <a href={member.link}>
-                          <p class="text-md flex justify-center font-medium text-blue-500 underline">
+                          <p className="text-md flex justify-center font-medium text-blue-500 underline">
                             View Profile
                           </p>
                         </a>
@@ -133,23 +128,23 @@ export default function officebearers() {
               </div>
             ))}
           </div>
-          <div class="-m-2 flex flex-wrap justify-center gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {faculty_details.map((member) => (
-              <div class="w-full p-2 md:w-1/2 lg:w-1/3">
+              <div className="w-full p-2" key={member.name}>
                 <a href={member.link}>
-                  <div class="flex h-full cursor-pointer items-center rounded-lg border border-gray-200 bg-white p-4 shadow-md hover:bg-blue-100 hover:shadow">
+                  <div className="flex flex-col h-full cursor-pointer items-center rounded-lg border border-gray-200 bg-white p-4 shadow-md hover:bg-blue-100 hover:shadow">
                     <Image
                       alt="team"
-                      class="mr-4 h-16 w-16 flex-shrink-0 rounded-md bg-gray-100 object-cover object-center"
+                      className="mr-4 h-16 w-16 flex-shrink-0 rounded-md bg-gray-100 object-cover object-center"
                       src={member.image}
-                      height={64}
-                      width={64}
+                      height={200}
+                      width={200}
                     />
-                    <div class="flex-grow">
-                      <h2 class="text-center font-semibold text-gray-900">
+                    <div className="flex-grow">
+                      <h2 className="text-center font-semibold text-gray-900">
                         {member.name}
                       </h2>
-                      <p class="text-center text-gray-500">
+                      <p className="text-center text-gray-500">
                         Chapter: <b>{member.chapter}</b>
                       </p>
                     </div>
@@ -162,5 +157,5 @@ export default function officebearers() {
       </section>
       <Footer />
     </>
-  )
+  );
 }
