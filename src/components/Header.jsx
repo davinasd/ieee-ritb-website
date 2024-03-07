@@ -76,7 +76,6 @@ function MobileNavigation() {
                   </Link>
                 </li>
                 <li>
-<<<<<<< HEAD
                   <Link href="https://ieee-ritb-website.vercel.app/collab" className="block w-full" onClick={() => close()}>
                      Collab With US
                   </Link>
@@ -85,15 +84,6 @@ function MobileNavigation() {
                 <li>
                   <Link href="/contactus" className="block w-full" onClick={() => close()}>
                     Contact Us
-=======
-                  <Link href="/gallery" className={`block w-full mob-button ${router.pathname === "/gallery" && 'active'}`} onClick={() => close()}>
-                   <b>Gallery</b> 
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/contactus" className={`block w-full mob-button ${router.pathname === '/contactus' && 'active'}`} onClick={() => close()}>
-                   <b>Contact Us</b> 
->>>>>>> 54e14759ae9d8d648b525565b28e6a6fb36f749a
                   </Link>
                 </li>
               </Popover.Panel>
@@ -109,13 +99,8 @@ export function Header() {
   const router = useRouter();
   
   return (
-<<<<<<< HEAD
-<<<<<<< HEAD
-    //<header className="z-50 border border-b bg-blue-50 py-4 shadow-md">
-=======
->>>>>>> 98fc40c610d351e9c762c2d4c5fe41875abf6bd1
-=======
->>>>>>> 54e14759ae9d8d648b525565b28e6a6fb36f749a
+
+
     <header className="z-50 border border-b bg-blue-50 py-4 shadow-sm sticky top-0 !important">
       <div className="mx-auto max-w-6xl px-4 sm:px-4 lg:max-w-4xl flex justify-between items-center">
         <div>
