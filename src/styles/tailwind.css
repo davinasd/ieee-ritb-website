@@ -78,6 +78,17 @@
   transform: translateY(-7px);
 }
 
+.mob-button {
+  padding-top: 2ch;
+  margin: 0;
+  font-weight: 350;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #042b5ff7; 
+  transition: color 0.3s ease;
+  font-size: medium;
+}
+
 .border-n {
   border-width: 1px;
 }
