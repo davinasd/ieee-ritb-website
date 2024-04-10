@@ -131,7 +131,7 @@ export function Hero() {
   const images1 = [ img10, img11, img12, img13];
 
   return (
-    <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white text-gray-800">
+    <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white text-gray-800 pt-32">
       <div className="container mx-auto flex flex-col items-center px-4 pt-8 text-center md:px-10 lg:px-8">
         <h1 className="text-2xl font-bold leading-none md:text-3xl lg:text-4xl">
           IEEE <span className="text-pri">Ramaiah Institute Of Technology</span>
@@ -160,12 +160,11 @@ export function Hero() {
           {images.map((image, index) => (
             <SwiperSlide key={index}>
               <Image
-                className="h-auto w-full rounded-lg shadow-lg"
+                className="h-auto w-full rounded-lg shadow-lg object-cover"
                 src={image}
                 alt={index + 'image'}
                 width={1920}
                 height={1080}
-                objectFit="cover"
               />
             </SwiperSlide>
           ))}
@@ -214,12 +213,11 @@ export function Hero() {
           {images1.map((image, index) => (
             <SwiperSlide key={index}>
               <Image
-                className="h-auto w-full rounded-lg shadow-lg"
+                className="h-auto w-full rounded-lg shadow-lg object-cover"
                 src={image}
                 alt={index + 'image'}
                 width={1920}
                 height={1080}
-                objectFit="cover"
               />
             </SwiperSlide>
           ))}

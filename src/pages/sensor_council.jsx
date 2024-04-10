@@ -19,7 +19,7 @@ const images = [sc1, sc2]
 
 export default function Home() {
   return (
-    <>
+    <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white text-gray-800 pt-16">
       <Head>
         <title>
           IEEE SENSOR COUNCIL | IEEE Ramaiah Institute of Technology
@@ -57,12 +57,11 @@ export default function Home() {
                 {images.map((image, index) => (
                   <SwiperSlide key={index}>
                     <Image
-                      className="lg:h-128 h-96 w-full object-fill"
+                      className="lg:h-128 h-96 w-full object-cover"
                       src={image}
                       alt={index}
                       width={1795}
                       height={850}
-                      objectFit="cover"
                       border-radius="10px"
                     />
                   </SwiperSlide>
@@ -92,77 +91,77 @@ export default function Home() {
                 <Member
                   name="Souhadra Shrivastava"
                   designation="Chair"
-                  link="#"
-                  image="#"
+                  link="https://www.linkedin.com/in/souhadra-shrivastava/"
+                  image="https://drive.google.com/thumbnail?id=1oKyVy5WVewK7wyrLXtfDB7AVetTYuFEo"
                 ></Member>
 
                 <Member
-                  name="Tanish P Hegde"
+                  name="Tanisha P Hegde"
                   designation="Secretary"
-                  link="#"
+                  link="https://www.linkedin.com/in/tanisha-p-hegde-510036230"
                   image="https://drive.google.com/thumbnail?id=1Gh1IShu0AG3wjKhOVEEsUNMCWtMA_Aia"
                 ></Member>
 
                 <Member
                   name="Chinmay Jindal"
                   designation="Member"
-                  link="#"
+                  link="https://www.linkedin.com/in/chinmay-jindal-49a76024a/"
                   image="https://drive.google.com/thumbnail?id=1zyDv1Of0aNTY71n9HkW3GB6fjfjcSDND"
                 ></Member>
 
                 <Member
                   name="Aruna Arunachalam"
                   designation="Member"
-                  link="#"
+                  link="https://www.linkedin.com/in/aruna-arunachalam-7bb5002b3/"
                   image="https://drive.google.com/thumbnail?id=1RNEFqm_pM-cUoPeHvSE45cFOjZ45Ztqq"
                 ></Member>
 
                 <Member
-                  name="Suhas B S"
+                  name="Suhaas B S"
                   designation="Member"
-                  link="#"
+                  link="https://www.linkedin.com/in/suhaas-b-s-7817262a7/"
                   image="https://drive.google.com/thumbnail?id=1U48WRdUBaVwmyeuaEthnUzj6_lrNWJdM"
                 ></Member>
 
                 <Member
                   name="Siddharth Lunawat"
                   designation="Member"
-                  link="#"
+                  link="https://www.linkedin.com/in/siddharth-lunawat-326146233 "
                   image="https://drive.google.com/thumbnail?id=1NQ5lKj0sb2cx_GPOpXpggS77q9qU1z1z"
                 ></Member>
 
                 <Member
                   name="Adithi Purushothama"
                   designation="Member"
-                  link="#"
+                  link="https://www.linkedin.com/in/adithi-purushothama-3652b92b3/"
                   image="https://drive.google.com/thumbnail?id=1D51V68oN4GqV6U2bPYA4b4mM9pGf8UvF"
                 ></Member>
 
                 <Member
                   name="Shree Lakshmi S Shekar"
                   designation="Member"
-                  link="#"
-                  image="https://drive.google.com/thumbnail?id=1-amXgcxNqIrsNxiTFmD4mTuiEArk9KlJ"
+                  link="https://www.linkedin.com/in/shree-lakshmi-s-shekar-760738266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/Shree%20Lakshmi%20S%20Shekar_1MS22IS129.jpeg"
                 ></Member>
 
                 <Member
                   name="Likhitha C A"
                   designation="Member"
-                  link="#"
+                  link="https://www.linkedin.com/in/likhitha-ca7813042b3/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_ap"
                   image="https://drive.google.com/thumbnail?id=1dFYD9GrQ_h5Ob3QoaXhT42D1yZcAxpxd"
                 ></Member>
 
                 <Member
                   name="Kaustubh Kumar"
                   designation="Member"
-                  link="#"
+                  link="https://www.linkedin.com/in/kaustubh-kumar-274265242/"
                   image="https://drive.google.com/thumbnail?id=1EGsdTmun5I2OHtqWjfpBwI4lNTmqDvXL"
                 ></Member>
 
                 <Member
                   name="Archisman Hazra"
                   designation="Member"
-                  link="#"
+                  link="https://www.linkedin.com/in/archisman-hazra-197767298/ "
                   image="https://drive.google.com/thumbnail?id=1qnFeR7l3kOdyj8uldbnK6UFnxyH1VDqA"
                 ></Member>
               </div>
@@ -192,6 +191,6 @@ export default function Home() {
         </div>
       </main>
       <Footer />
-    </>
+    </section>
   )
 }

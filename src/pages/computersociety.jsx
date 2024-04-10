@@ -26,7 +26,7 @@ const images = [img1, img2, img3, img4, img5, img6, cs1, cs2, cs3, cs4, cs5]
 
 export default function Home() {
   return (
-    <>
+    <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white text-gray-800 pt-16">
       <Head>
         <title>
           IEEE Computer Society| IEEE Ramaiah Institute of Technology
@@ -64,12 +64,11 @@ export default function Home() {
                 {images.map((image, index) => (
                   <SwiperSlide key={index}>
                     <Image
-                      className="lg:h-128 h-96 w-full object-fill"
+                      className="lg:h-128 h-96 w-full object-cover"
                       src={image}
                       alt={index}
                       width={1745}
                       height={800}
-                      objectFit="cover"
                       border-radius="10px"
                     />
                   </SwiperSlide>
@@ -209,14 +208,14 @@ export default function Home() {
                   name="Nikith Ganga"
                   designation="Member"
                   link="https://www.linkedin.com/in/nikith-ganga/"
-                  image="https://drive.google.com/uc?id=1-EHpiQgeRF9oJgv36BUw0MbFaX7r21hz&export=download"//not uploaded
+                  image="https://drive.google.com/thumbnail?id=1vEHxIk8ZmgTFq0vGaIj8UYAnK1rjdcsW"//not uploaded
                 ></Member>
 
                 <Member
                   name="Shraddha Vinod Prabhu"
                   designation="Member"
                   link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"
-                  image="https://drive.google.com/uc?id=1-EHpiQgeRF9oJgv36BUw0MbFaX7r21hz&export=download"//not uploaded
+                  image="https://drive.google.com/thumbnail?id=1-PNhhFVQobP0Pb826X2kEyp3El5d337v"//not uploaded
                 ></Member>
 
                 <Member
@@ -244,7 +243,7 @@ export default function Home() {
                   name="Aishwarya R Dongal"
                   designation="Member"
                   link="https://www.linkedin.com/in/aishwarya-r-dongal-a69a90271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                  image="https://drive.google.com/uc?id=&export=download"//not uploaded
+                  image="https://drive.google.com/thumbnail?id=17RHL292ZxgmvLGoCQfKYm4j3UGtnXDXx"//not uploaded
                 ></Member>
 
                 <Member
@@ -258,7 +257,7 @@ export default function Home() {
                   name="Riya Kumari"
                   designation="Member"
                   link="https://www.linkedin.com/in/riya-kumari-58a923257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                  image="https://drive.google.com/uc?id=1-EHpiQgeRF9oJgv36BUw0MbFaX7r21hz&export=download"//not uploaded
+                  image="https://drive.google.com/thumbnail?id=1rYAMiDZKsO1BETIs0wJcgQFbVS2MhXg_"//not uploaded
                 ></Member>
 
                 <Member
@@ -277,7 +276,7 @@ export default function Home() {
                   name="Shreyaan Kapoor"
                   designation="Member"
                   link="https://www.linkedin.com/in/shreyaan-kapoor-47845427b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-                  image="https://drive.google.com/uc?id=1-EHpiQgeRF9oJgv36BUw0MbFaX7r21hz&export=download"//not uplaoded
+                  image="https://drive.google.com/thumbnail?id=1N91FvdMb8Ri-OGy1jrckQnvk_wpTLcrR"//not uplaoded
                 ></Member>
                 <Member
                 name="Bhuvan Agrawal"
@@ -295,13 +294,13 @@ export default function Home() {
                   name="Pranav M K"
                   designation="Member"
                   link="www.linkedin.com/in/pranav-m-k-186b15291"
-                  image="https://drive.google.com/uc?id=1-EHpiQgeRF9oJgv36BUw0MbFaX7r21hz&export=download"//not uploaded
+                  image="https://drive.google.com/thumbnail?id=12eF5rNSxcZmUbTqOxCrA3B2MVt9eJPIH"//not uploaded
                 ></Member>
                 <Member
                   name="Shantanu Pandey"
                   designation="Member"
                   link="https://www.linkedin.com/in/shantanu-pandey-rit?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                  image="https://drive.google.com/uc?id=1-EHpiQgeRF9oJgv36BUw0MbFaX7r21hz&export=download"//not uploaded
+                  image="https://drive.google.com/thumbnail?id=1iJSSU3AsHH9xMqX6-gXvx0smf6Y8mvjJ"//not uploaded
                 ></Member>
                 
               </div>
@@ -331,6 +330,6 @@ export default function Home() {
         </div>
       </main>
       <Footer />
-    </>
+    </section>
   )
 }

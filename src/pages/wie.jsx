@@ -36,7 +36,7 @@ const images = [
 
 export default function Home() {
   return (
-    <>
+    <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white text-gray-800 pt-16">
       <Head>
         <title>IEEE WIE CHAPTER || IEEE Ramaiah Institute of Technology</title>
         <meta
@@ -73,12 +73,11 @@ export default function Home() {
                 {images.map((image, index) => (
                   <SwiperSlide key={index}>
                     <Image
-                      className="lg:h-128 h-96 w-full object-fill"
+                      className="lg:h-128 h-96 w-full object-cover"
                       src={image}
                       alt={index}
                       width={1745}
                       height={800}
-                      objectFit="cover"
                       border-radius="10px"
                     />
                   </SwiperSlide>
@@ -219,6 +218,6 @@ export default function Home() {
         </div>
       </main>
       <Footer />
-    </>
+    </section>
   )
 }

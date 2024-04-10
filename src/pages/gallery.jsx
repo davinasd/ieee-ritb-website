@@ -232,7 +232,7 @@ const LoadingAnimation = () => (
 export default function Gallery() {
   const [imageLoaded, setImageLoaded] = useState(false)
   return (
-    <>
+    <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white text-gray-800 pt-32">
       <Head>
         <title>Gallery - IEEE | Ramaiah Institute of Technology</title>
       </Head>
@@ -243,7 +243,7 @@ export default function Gallery() {
         className="scroll-mt-8 bg-blue-50 py-8 sm:scroll-mt-32 sm:py-5 lg:py-8"
       >
         <Container>
-          <p className="mt-2 flex justify-center font-display text-4xl font-medium tracking-tight text-slate-800">
+          <p className="mt-2 flex justify-center font-display text-4xl font-medium text-slate-800">
             Gallery
           </p>
         </Container>
@@ -267,6 +267,6 @@ export default function Gallery() {
         </Container>
       </section>
       <Footer />
-    </>
+    </section>
   )
 }
