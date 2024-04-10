@@ -91,7 +91,7 @@ const members = [
       'https://github.com/aarthipv/profileimages/blob/main/creativity/Nandini%20Poojari%201MS22EE031.jpg?raw=true',
   },
   {
-    name: 'Ankita M Jaka ',
+    name: '  ',
     designation: 'Member',
     link: 'https://www.linkedin.com/in/dhanrajrateria',//not uploaded
     image:
@@ -123,7 +123,7 @@ const members = [
     designation: 'Member',
     link: 'https://www.linkedin.com/in/sahana-savantanavar-162b20259/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     image:
-      'https://drive.google.com/uc?id=1P__rOfY4ik__wmjTU6_p9Wj587B9gJMr&export=view',//not uploaded
+      'https://github.com/aarthipv/profileimages/blob/main/creativity/Sahana%20Bhagavant%20Savantanavar%201MS22EC151.jpg?raw=true',
   },
   {
     name: 'Sachin R P ',

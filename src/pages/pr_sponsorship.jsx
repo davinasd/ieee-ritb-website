@@ -103,6 +103,12 @@ export default function Home() {
   </Member>
 
   <Member
+    name="Aditya Sarkar"
+    link="https://www.linkedin.com/in/annliya-b-317920284"
+    image="https://github.com/aarthipv/profileimages/blob/main/Aditya%20sarkar%201MS23EI067-T.jpg?raw=true">
+
+  </Member>
+  <Member
     name="Siddharth Lunawat"
     link="http://paul-www.linkedin.com/in/megha-paul-2757b921a"
     image="https://drive.google.com/file/d/1NFPFLownO6jzrl6V0fIDbfcBoGmU-a5O/view?usp=drive_link">

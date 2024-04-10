@@ -300,6 +300,14 @@ export default function Home() {
                   image="https://drive.google.com/uc?id=1VRA9zCcXn0wiO5lC0RgQAFs29RRZisz4&export=view"
                 ></Member>
 
+                
+                <Member
+                  name="Sharon Theres Joseph"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/dhanyath-r-4a9737228"
+                  image="https://github.com/aarthipv/profileimages/blob/main/Sharon%20Theres%20Joseph%20_1MS22ET044.jpg?raw=true"
+                ></Member>
+
                 <Member
                   name="N Dharshan"
                   designation="Execom"
