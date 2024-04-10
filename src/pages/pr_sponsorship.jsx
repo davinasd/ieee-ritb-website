@@ -7,7 +7,7 @@ import { Member } from '@/components/Member'
 
 export default function Home() {
   return (
-    <>
+    <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white text-gray-800 pt-16">
       <Head>
         <title>
           IEEE PR AND SPONSORSHIP| IEEE Ramaiah Institute of Technology
@@ -60,7 +60,7 @@ export default function Home() {
     name="Shireen Dash"
     designation="Public Relations Head"
     link="https://www.linkedin.com/in/shireen-dash-300b96278/"
-    image="https://drive.google.com/uc?id=1vBINJ5CV6ife6C6XKY2auW6FBxNqaul-&export=download">
+    image="https://drive.google.com/thumbnail?id=1vBINJ5CV6ife6C6XKY2auW6FBxNqaul">
   </Member>
 
   {/* Public Relations Co-Head */}
@@ -68,7 +68,7 @@ export default function Home() {
     name="Nidhi Bishnoi"
     designation="Public Relations Co-Head"
     link="https://www.linkedin.com/in/nidhi-bishnoi12"
-    image="https://drive.google.com/file/d/1-aDTxYBJPtEdCv4IrOZ8JOy2Isg5IKHX/view?usp=drive_link">
+    image="https://drive.google.com/thumbnail?id=1-aDTxYBJPtEdCv4IrOZ8JOy2Isg5IKHX">
   </Member>
 
   {/* Sponsorship Head */}
@@ -76,7 +76,7 @@ export default function Home() {
     name="Prutvi Prakash Shetty"
     designation="Sponsorship Head"
     link="https://www.linkedin.com/in/prutvi-shetty-631420240"
-    image="https://drive.google.com/file/d/1JonX1ePcDcZYzhppZGpvXiNFWg0v27BC/view?usp=drive_link">
+    image="https://drive.google.com/thumbnail?id=1JonX1ePcDcZYzhppZGpvXiNFWg0v27BC">
   </Member>
 
   {/* Public Relations Vice-Head */}
@@ -84,42 +84,48 @@ export default function Home() {
     name="Ranjana Rajesh"
     designation="Public Relations Vice-Head"
     link="https://www.linkedin.com/in/ranjana-rajesh-454b91278"
-    image="https://drive.google.com/file/d/1pRdFGPmsIErLHB0QizNmaMTltsYxvb1_/view?usp=drive_link">
+    image="https://drive.google.com/thumbnail?id=1pRdFGPmsIErLHB0QizNmaMTltsYxvb1_">
   </Member>
 
   {/* Members */}
   <Member
     name="Shobhit Srivastava"
     link="https://www.linkedin.com/in/shobhit-srivastava-65332b288"
-    image="https://drive.google.com/file/d/1cq-vVfxJU_4N6jfafb4e0nMfZmSMshbp/view?usp=drive_link">
+    image="https://drive.google.com/thumbnail?id=1cq-vVfxJU_4N6jfafb4e0nMfZmSMshbp">
 
   </Member>
 
   <Member
     name="Annliya Biju"
     link="https://www.linkedin.com/in/annliya-b-317920284"
-    image="https://drive.google.com/file/d/187OPSvUKJR5xTvVqknHEI2B9lBKQV2aC/view?usp=drive_link">
+    image="https://drive.google.com/thumbnail?id=187OPSvUKJR5xTvVqknHEI2B9lBKQV2aC">
 
   </Member>
 
   <Member
+    name="Aditya Sarkar"
+    link="https://www.linkedin.com/in/annliya-b-317920284"
+    image="https://github.com/aarthipv/profileimages/blob/main/Aditya%20sarkar%201MS23EI067-T.jpg?raw=true">
+
+  </Member>
+  <Member
     name="Siddharth Lunawat"
     link="http://paul-www.linkedin.com/in/megha-paul-2757b921a"
-    image="https://drive.google.com/file/d/1NFPFLownO6jzrl6V0fIDbfcBoGmU-a5O/view?usp=drive_link">
+    image="https://drive.google.com/thumbnail?id=1NFPFLownO6jzrl6V0fIDbfcBoGmU-a5O">
 
   </Member>
 
   <Member
     name="Megha Paul"
     link="http://paul-www.linkedin.com/in/megha-paul-2757b921a"
-    image="https://drive.google.com/file/d/1U1R2AJioMHbzfYSotFAOnEpU3BfK_Hz1/view?usp=drive_link">
+    image="https://drive.google.com/thumbnail?id=1U1R2AJioMHbzfYSotFAOnEpU3BfK_Hz1">
 
   </Member>
 
   <Member
     name="Diyaa Prasad"
     link="https://www.linkedin.com/in/diyaa-prasad-b132a6299"
-    image="https://drive.google.com/file/d/1CJWBIHAKxVOKOSg9-MsseR5Om75QnN_S/view?usp=drive_link">
+    image="https://drive.google.com/thumbnail?id=1CJWBIHAKxVOKOSg9-MsseR5Om75QnN_S">
 
   </Member>
 
@@ -133,28 +139,28 @@ export default function Home() {
   <Member
     name="Tausif Malek"
     link="https://www.linkedin.com/in/tausif-malek-1469a3293/"
-    image="https://drive.google.com/file/d/1IGldK3LfqQn8LKPCkA6ASF5kgqXewYMP/view?usp=drive_link">
+    image="https://drive.google.com/thumbnail?id=1IGldK3LfqQn8LKPCkA6ASF5kgqXewYMP">
 
   </Member>
 
   <Member
     name="Abhishek Manoj"
     link="http://www.linkedin.com/in/abhishek-manoj-4383512b2"
-    image="https://drive.google.com/file/d/1MGTQDaSKpLRHrb69d-vVCDCIvGU3qLO1/view?usp=drive_link">
+    image="https://drive.google.com/thumbnail?id=1MGTQDaSKpLRHrb69d-vVCDCIvGU3qLO1">
 
   </Member>
 
   <Member
     name="Zayaan Hussain"
     link="https://www.linkedin.com/in/zayaan-hussain-21a9472b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-    image="https://drive.google.com/file/d/1dc3_l-F-h72rmW8hE63euQ2AOfZgeF_1/view?usp=drive_link">
+    image="https://drive.google.com/thumbnail?id=1dc3_l-F-h72rmW8hE63euQ2AOfZgeF_1">
 
   </Member>
 
   <Member
     name="Trisha N Iyer"
     link="https://www.linkedin.com/in/trisha-n-iyer-b506192b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-    image="https://drive.google.com/file/d/1i-4vitPwFgYygnpFRoHBplmqKSdborta/view?usp=drive_link">
+    image="https://drive.google.com/thumbnail?id=1i-4vitPwFgYygnpFRoHBplmqKSdborta">
 
   </Member>
 </div>
@@ -185,6 +191,6 @@ export default function Home() {
         </div>
       </main>
       <Footer />
-    </>
+    </section>
   )
 }

@@ -6,7 +6,7 @@ export function Logo(props) {
       <Image
         src={logoimg}
         alt="IEEE Computational Intelligence Society"
-        width={105}
+        width={85}
         height={78}
       />
     </div>

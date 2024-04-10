@@ -56,7 +56,7 @@ import { Member } from '@/components/Member'
 
 export default function Home() {
   return (
-    <>
+    <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white text-gray-800 pt-16">
       <Head>
         <title>COMSOC | IEEE Ramaiah Institute of Technology</title>
         <meta
@@ -98,12 +98,11 @@ export default function Home() {
                 {images.map((image, index) => (
                   <SwiperSlide key={index}>
                     <Image
-                      className="w-full object-fill"
+                      className="w-full object-cover"
                       src={image.link}
                       alt={index}
                       width={image.width}
                       height={image.height}
-                      objectFit="cover"
                       border-radius="10px"
                     />
                   </SwiperSlide>
@@ -252,60 +251,201 @@ export default function Home() {
 
               <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
                 <Member
-                  name="Tarunay Shrivastava"
+                  name="Dharshan N"
                   designation="Chairperson"
-                  link="https://www.linkedin.com/in/tarunay-shrivastava-98ab2919a"
-                  image="https://drive.google.com/uc?id=1yTodYTvBoPH_qgdENTT1fmH4CX3Q8J5U&export=view"
-                ></Member>
-
+                  link="http://www.linkedin.com/in/dharshan-580755257"
+                  image="https://drive.google.com/thumbnail?id=1yTodYTvBoPH_qgdENTT1fmH4CX3Q8J5U"
+                />
                 <Member
-                  name="Shawn Daniel Rodrigues"
-                  designation="Secretary"
-                  link="https://www.linkedin.com/in/shawn-daniel-rodrigues-a63020205/"
-                  image="https://drive.google.com/uc?id=1DWuba-Z-oI-kYD2UCipOYWtGiC8JEQ73&export=view"
-                ></Member>
-
-                <Member
-                  name="Katyayani Palak"
-                  designation="Vice Chair"
-                  link=""
-                  image="https://drive.google.com/uc?id=1WH6VtI1VhvecvUZYXG-tTdpNDxaEiZIU&export=view"
-                ></Member>
-
-                <Member
-                  name="Roshni Roche"
+                  name="Aditya Kumar Singh"
                   designation="Treasurer"
-                  link="https://www.linkedin.com/in/roshni-roche-641961264"
-                  image="https://drive.google.com/uc?id=1ZZwJeYhxVx5Cb_Ll8O1lPQhSOxH6zFhx&export=view"
-                ></Member>
-
-                <Member
-                  name="Vaishnavi Dinesh"
-                  designation="Execom"
-                  link="https://in.linkedin.com/in/vaishnavi-dinesh-019253267"
-                  image="https://drive.google.com/uc?id=1GaECTmHMC540NGHK7k7BqrJloLxPIgvO&export=view"
-                ></Member>
-
-                <Member
-                  name="Kaushik Gopal Gaitonde"
-                  designation="Execom"
-                  link="https://www.linkedin.com/in/kaushik-gaitonde-067039247/"
-                  image="https://drive.google.com/uc?id=1piUOHXN5zGcotcvTbpxKxQa928BEehLZ&export=view"
-                ></Member>
-
+                  link="https://www.linkedin.com/in/aditya-singh-b241a3271"
+                  image="https://drive.google.com/thumbnail?id=1-JN8su4oRkHnV7wClcqzkr7xjWOS4YIz"
+                />
                 <Member
                   name="Dhanyath R"
+<<<<<<< HEAD
                   designation="Execom"
                   link="https://www.linkedin.com/in/dhanyath-r-4a9737228"
                   image="https://drive.google.com/uc?id=1VRA9zCcXn0wiO5lC0RgQAFs29RRZisz4&export=view"
                 ></Member>
 
+                
                 <Member
-                  name="N Dharshan"
+                  name="Sharon Theres Joseph"
                   designation="Execom"
-                  link="http://www.linkedin.com/in/dharshan-5807552"
-                  image="https://drive.google.com/uc?id=1-D8fWgd--yaPrhn1npE4iLdKbc7ZE3Yd&export=view"
+                  link="https://www.linkedin.com/in/dhanyath-r-4a9737228"
+                  image="https://github.com/aarthipv/profileimages/blob/main/Sharon%20Theres%20Joseph%20_1MS22ET044.jpg?raw=true"
                 ></Member>
+
+=======
+                  designation="Secretary"
+                  link="https://www.linkedin.com/in/looking-out-for-dhanyath-ravi/"
+                  image="https://drive.google.com/thumbnail?id=1kdqvZJ1byu6JFV-AVmoThv9LoUBs6Dm1"
+                />
+>>>>>>> 6f3314e8d50d60b248c223424ce8a4ef2ae644d4
+                <Member
+                  name="Nishanth P Kashyap"
+                  designation="Vice Chair"
+                  link="https://www.linkedin.com/in/nishanth-kashyap-06b979259"
+                  image="https://drive.google.com/thumbnail?id=1Ed1v6eKizOiggquQj5-t4Tg-dk3o24XW"
+                />
+                <Member
+                  name="Pranav Vasudev"
+                  designation="Vice Secretary"
+                  link="https://www.linkedin.com/in/pranav-vasudev-2aaa29244"
+                  image="https://drive.google.com/thumbnail?id=1v2lVP5UCmhKcgsCies245TjdVM5wD4zA"
+                />
+                <Member
+                  name="Drithi P"
+                  designation="Vice Treasurer"
+                  link="https://www.linkedin.com/in/drithi-p-b7aa12241"
+                  image="https://drive.google.com/thumbnail?id=1jvtCvYj2y89jA4ihZgVa2TVrWV0Lb8rV"
+                />
+                <Member
+                  name="Gaurav C Belawadi"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/gaurav-c-belawadi-659304224"
+                  image="https://drive.google.com/thumbnail?id=1Msl4GbWc3mnHybAdigvW_CdI4MgBlzzW"
+                />
+                <Member
+                  name="Vaibhav Gowda G P"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/vaibhav-gowda-34548124a"
+                  image="https://drive.google.com/thumbnail?id=1k2r59q770IrDxs4rqaULQIvzcXSirJqa"
+                />
+                <Member
+                  name="Yashaswini M"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/yashaswini-m-722735229"
+                  image="https://drive.google.com/thumbnail?id=1gdpQuqFuQ4Y_DgnGIp69w2qQJskUposR"
+                />
+                <Member
+                  name="Tanisha P Hegde"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/tanisha-p-hegde-510036230"
+                  image="https://drive.google.com/thumbnail?id=1G0PhVoGBHuuVn_dKLHH6wnMhAfbRlXKY"
+                />
+                <Member
+                  name="Naveen N G"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/naveen-n-g-bba3aa271"
+                  image="https://drive.google.com/thumbnail?id=1WegbMDKT__fReLimkgLKM_GYaDm1D32x"
+                />
+                <Member
+                  name="Sneha Tapadar"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/sneha-tapadar-26b8632b2"
+                  image="https://drive.google.com/thumbnail?id=1t9gvgoDL2NVNvA88xrZa3bNzGRYQapay"
+                />
+                <Member
+                  name="Mohammed Aamir Ahmed"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/m-d-aamir-ahmed-741765248"
+                  image="https://drive.google.com/thumbnail?id=1cnoNiVd2z8SW17VCQzIm5DyMR6wCJjfh"
+                />
+                <Member
+                  name="Priyanshu Trivedi"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/priyanshu-trivedi-4a8746293"
+                  image="https://drive.google.com/thumbnail?id=1u_b296g1V0Zl9vkHDhPnkQXBnNJnxZTz"
+                />
+                <Member
+                  name="Harshavardhana H D"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/harshavardhana-h-d-a9a3462b2"
+                  image="https://drive.google.com/thumbnail?id=1r2i1uO_q2ZypuVFMJFTFgMh0uXl6f9QG"
+                />
+                <Member
+                  name="Mahantesh Bandi"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/mahantesh-m-bandi-a3237423a"
+                  image="https://drive.google.com/thumbnail?id=1ocuFJJwNMqMjIMDdUKSK2lJTGmnf_aR_"
+                />
+                <Member
+                  name="Rishabh Bhardwaj"
+                  designation="Execom"
+                  link="http://linkedin.com/in/rishabh-bhardwaj-256369289"
+                  image="https://drive.google.com/thumbnail?id=1i-dYvtVYcxZtis_OsTYnWuxBpVNr8PDa"
+                />
+                <Member
+                  name="Suhas Reddy"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/suhas-reddy-dy-8778612b2"
+                  image="https://drive.google.com/thumbnail?id=1tv7GuZJQp0IFELmacwu_ZrjYcCm60pJG"
+                />
+                <Member
+                  name="Mahima B M"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/mahima-bm-602a142a5"
+                  image="https://drive.google.com/thumbnail?id=1Gwuzdx8b5rvRILLZYCSgh654ftHBx-Io"
+                />
+                <Member
+                  name="Sukruthi Reddy D Y"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/sukruthi-reddy-3083442b2"
+                  image="https://drive.google.com/thumbnail?id=1rabaKveDX7DBRKxGULOpHHpI0njsLZn-"
+                />
+                <Member
+                  name="Sanath kumar Biradar"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/sukruthi-reddy-3083442b2"
+                  image="https://drive.google.com/thumbnail?id=1vUJaQqCdx16BNvv-FKBUf208rbeJqoMa"
+                />
+                <Member
+                  name="Pransu kumar"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/pransu-kumar-5547b8281"
+                  image="https://drive.google.com/thumbnail?id=1DIUur8Be2dyp0nREUpRDXuMixk_xzaQP"
+                />
+                <Member
+                  name="Anishka Avinash"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/anishka-avinash-a07839291"
+                  image="https://drive.google.com/thumbnail?id=1muvwSVtIvuSug_o59eq8BKubz9msEIxX"
+                />
+                <Member
+                  name="Tejasvi S N"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/tejasvi-s-n-10a511271"
+                  image="https://drive.google.com/thumbnail?id=1PUyXVUIwYl44voTUwRGxr1cHdN90Jdil"
+                />
+                <Member
+                  name="UmmeKulsum Yasir"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/umme-kulsum-yasir-2212a42a0"
+                  image="https://drive.google.com/thumbnail?id=1jULmCk-7CpRRg3ANpgQYh0i7ghWIIuWB"
+                />
+                <Member
+                  name="Divvyaa S Nair"
+                  designation="Execom"
+                  link="https://in.linkedin.com/in/divvya-nair-8b76b62a1"
+                  image="https://drive.google.com/thumbnail?id=1POxxkURoTvnHiOlBqxFIlJy-KCfjJLu7"
+                />
+                <Member
+                  name="Divya M Narwade"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/divyashree-m-narwade-34171a25a"
+                  image="https://drive.google.com/thumbnail?id=1tOWCXXUZggwNlD8dXKEjw89R-Z0kVNrf"
+                />
+                <Member
+                  name="Fathima Ibrahim"
+                  designation="Execom"
+                  link="http://www.linkedin.com/in/fathima-ibrahim-5609a0215"
+                  image="https://drive.google.com/thumbnail?id=1hHERpumv9IXLe72uSV0OhGaLtolQ9fEb"
+                />
+                <Member
+                  name="RUSHALI S ADDAPA"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/rushali-adappa-45531b291"
+                  image="https://drive.google.com/thumbnail?id=1Id3lQ0l9ADbosaU1XbQIGZKd1-WvQf57"
+                />
+                <Member
+                  name="Karthik A S"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/karthik-a-9470372b3"
+                  image="https://drive.google.com/thumbnail?id=1T5iLndd8ZyjhoD92fNhqzvz2ywoTZE2r"
+                />
               </div>
 
               <div className="mt-10 flex items-center justify-center gap-x-6">
@@ -333,6 +473,6 @@ export default function Home() {
         </div>
       </main>
       <Footer />
-    </>
+    </section>
   )
 }

@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
-
+import { Hero } from '@/components/Hero'
 import { Member } from '@/components/Member'
 
 import img1 from '@/images/MTTS/Picture1.png'
@@ -19,7 +19,7 @@ const images = [img1, img2, img3, img4, mtts1, mtts2]
 
 export default function Home() {
   return (
-    <>
+    <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white text-gray-800 pt-16">
       <Head>
         <title>IEEE MTTS CHAPTER || IEEE Ramaiah Institute of Technology</title>
         <meta
@@ -29,7 +29,7 @@ export default function Home() {
       </Head>
       <Header />
       <main>
-      <div className="relative isolate px-6 pt-14 lg:px-8 bg-blue-50">
+        <div className="relative isolate px-6 pt-14 lg:px-8 bg-blue-50">
           <div className="mx-auto max-w-6xl py-4 sm:py-6 lg:py-8">
             <div className="">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl mb-10">
@@ -56,12 +56,11 @@ export default function Home() {
                 {images.map((image, index) => (
                   <SwiperSlide key={index}>
                     <Image
-                      className="lg:h-128 h-96 w-full object-fill"
+                      className="lg:h-128 h-96 w-full object-cover"
                       src={image}
                       alt={index}
                       width={1745}
                       height={800}
-                      objectFit="cover"
                       border-radius="10px"
                     />
                   </SwiperSlide>
@@ -90,36 +89,102 @@ export default function Home() {
               </h1>
 
               <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-                <Member name="Meenakshi Kshetija N"
+                <Member
+                  name="Prince Kumar Jha (Chair)"
                   designation="Chair"
-                  link="https://www.linkedin.com/in/meenakshi-n-776866220"
-                  image="https://drive.google.com/uc?id=1u9AhZl-vhDk8-ohWHeFL-sOMgMFEv7Qa&export=view">
-                </Member>
-
-                <Member name="Prajana B"
-                  designation="Vice-Chair"
-                  link="https://www.linkedin.com/in/prajana-b-47b3b0279"
-                  image="https://drive.google.com/uc?id=1NV7HwCBe99sqUMrEpRqfJtkCEJS_If95&export=download">
-
-                </Member>
-
-                <Member name="Neha Kantikar"
-                  designation="Secretary"
-                  link="https://www.linkedin.com/in/neha-kantikar"
-                  image="https://drive.google.com/uc?id=1PSs67kde0XeTJflrn_khZRCaF5PFDBxH&export=view">
-                </Member>
-
-                <Member name="Prince Kumar Jha"
-                  designation="Co-Secretary"
                   link="https://www.linkedin.com/in/prince-kumar-jha-2a0929101"
-                  image="https://drive.google.com/uc?id=1cMkkGqKNJO6w_CFhS2BUMNXeBWP9nIJj&export=view">
-                </Member>
-
-                <Member name="Amit Yadav"
+                  image="https://drive.google.com/thumbnail?id=19NxHvsgSlHo2NrSK5FdA2AG-jz36L8R6"
+                />
+                <Member
+                  name="Akshat Ujjain (Vice Chair)"
+                  designation="Vice Chair"
+                  link="https://www.linkedin.com/in/akshat-ujjain-105263261?"
+                  image="https://drive.google.com/thumbnail?id=1_fcj0cShD-vchVGG9ZJvQM5uXX7zMPeP"
+                />
+                <Member
+                  name="Priyadarshi Uttpal (Secretary)"
+                  designation="Secretary"
+                  link="https://www.linkedin.com/in/aditya-gangwani-615271246?"
+                  image="https://drive.google.com/thumbnail?id=1AIs2I8qlsT8eEmJhQuZ9RVbCBNZ2c9hZ"
+                />
+                <Member
+                  name="Akancha Gracy Tamang (Vice Secretary)"
+                  designation="Vice Secretary"
+                  link="https://www.linkedin.com/in/akancha-tamang-18a1aa24a"
+                  image="https://drive.google.com/thumbnail?id=1nJyW1nXdd0oK9m_R3hSfiPnkYYRU5CH4"
+                />
+                <Member
+                  name="Yashas V (Treasurer)"
                   designation="Treasurer"
-                  link="https://www.linkedin.com/in/amit-yadav-09949b205?trk=contact-info"
-                  image="https://drive.google.com/uc?id=1d9JfiD58rPgdx07F6EaqY9G18mMtLyon&export=view">
-                </Member>
+                  link="https://www.linkedin.com/in/yashas-v-b9747b278/"
+                  image="https://drive.google.com/thumbnail?id=1EfGmXd_IN2JSL7vrGXVKxVuiJZfK994d"
+                />
+                <Member
+                  name="Sameer P Bhandiwad (Vice Treasurer)"
+                  designation="Vice Treasurer"
+                  link="https://www.linkedin.com/in/sameer-p-bhandiwad-b61756250"
+                  image="https://drive.google.com/thumbnail?id=13T9Bi0x7dIo_8jrde-GlEcKnarUA_i3t"
+                />
+                <Member
+                  name="Sushmita N Mathad (Execom)"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/sushmita-mathad-9780b9285"
+                  image="https://drive.google.com/thumbnail?id=1p66M7-VqfFkaFgYDNTLauIXwFhTkW3JI"
+                />
+                <Member
+                  name="Aditya Gangwani (Execom)"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/aditya-gangwani-615271246?"
+                  image="https://drive.google.com/thumbnail?id=145gp36KB8ywtVWPw6zVe83E42tK9zngk"
+                />
+                <Member
+                  name="Aishwarya Mahesh Ulavi (Execom)"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/aishwarya-ulavi-34903b2b3"
+                  image="https://drive.google.com/thumbnail?id=1xffgQAugeFZR-XVyTn9yIWVAiZRtFk6X"
+                />
+                <Member
+                  name="Shreedhar Shetty (Execom)"
+                  designation="Execom"
+                  link="www.linkedin.com/in/shreedhar-shetty-92079525a"
+                  image="https://drive.google.com/thumbnail?id=1A3in33JNopckh-09vQCMS_Vkfi9SKcZB"
+                />
+                <Member
+                  name="Shreenath Shenoy (Execom)"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/shreenath-shenoy-76704a2b3?"
+                  image="https://drive.google.com/thumbnail?id=14hyAmO038xlqsX2vNU1ePLW8ABxNXzfB"
+                />
+                <Member
+                  name="Lakshman Gowda H K (Execom)"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/lakshman-gowda-562472295"
+                  image="https://drive.google.com/thumbnail?id=1SUd_tnz_FZTA3UBFyOP8KI1ENRLksjHo"
+                />
+                <Member
+                  name="Navya Ullas Rai (Execom)"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/navya-ullas-rai-05884b2b2"
+                  image="https://drive.google.com/thumbnail?id=1VDeAgGxm24V_Xa9CgdUo1p-LaHEBpZQg"
+                />
+                <Member
+                  name="Deekshith Kumar T (Execom)"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/deekshith-kumar-t-799485251"
+                  image="#"
+                />
+                <Member
+                  name="Vidit Agrawal (Execom)"
+                  designation="Execom"
+                  link="https://www.linkedin.com/in/vidit-agrawal-161047289"
+                  image="https://drive.google.com/thumbnail?id=1SzW203XDe8rqZCNB4k7vxPXBN2qrNEFB"
+                />
+                <Member
+                  name="Pranav B M (Member)"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/vidit-agrawal-161047289"
+                  image="#"
+                />
               </div>
 
               <div className="mt-10 flex items-center justify-center gap-x-6">
@@ -147,6 +212,6 @@ export default function Home() {
         </div>
       </main>
       <Footer />
-    </>
+    </section>
   )
 }

@@ -22,6 +22,15 @@ export function Footer() {
             <div className="mb-10 w-full">
               <h4 className="text-dark mb-5 text-lg font-semibold">Quick Links</h4>
               <ul className="block justify-center">
+              <li>
+                  <Link
+                    href="/"
+                    className="rounded-lg px-2 py-1 leading-loose text-white hover:bg-slate-100 hover:text-slate-900">
+                    
+                      Home
+                    
+                  </Link>
+                </li>
                 <li>
                   <Link
                     href="/faculty"
@@ -37,6 +46,15 @@ export function Footer() {
                     className="rounded-lg px-2 py-1 leading-loose text-white hover:bg-slate-100 hover:text-slate-900">
                     
                       Gallery
+                    
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/collab"
+                    className="rounded-lg px-2 py-1 leading-loose text-white hover:bg-slate-100 hover:text-slate-900">
+                    
+                      Collab
                     
                   </Link>
                 </li>

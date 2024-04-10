@@ -52,7 +52,7 @@ const images = [
 
 export default function Home() {
   return (
-    <>
+    <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white text-gray-800 pt-16">
       <Head>
         <title>RoboRIT | IEEE Ramaiah Institute of Technology</title>
         <meta
@@ -88,12 +88,11 @@ export default function Home() {
                 {images.map((image, index) => (
                   <SwiperSlide key={index}>
                     <Image
-                      className="lg:h-128 h-96 w-full object-fill"
+                      className="lg:h-128 h-96 w-full object-cover"
                       src={image}
                       alt={index}
                       width={1795}
                       height={850}
-                      objectFit="cover"
                       border-radius="10px"
                     />
                   </SwiperSlide>
@@ -205,39 +204,39 @@ export default function Home() {
                   that make programming the robot super easy even for beginners.
                 </p>
                 <p className="mt-6 text-lg">Course Outcomes</p>
-                <p className="text-base text-gray-600">
-                  <ul className="ml-4 list-disc">
-                    <li>Introduction to Robotics systems & Microcontroller</li>
-                    <li>Introduction to Arduino Architecture</li>
-                    <li>Understanding the Electronics involved in the robot</li>
-                    <li>Digital IR sensors working & calibration</li>
-                    <li>Programming the robot</li>
-                    <li>Understand Arduino Architecture and its Programming</li>
-                    <li>
-                      Hands-on experience on block based programming on Arduino
-                    </li>
-                  </ul>
-                </p>
+                {/* <p className="text-base text-gray-600"> */}
+                <ul className="ml-4 list-disc">
+                  <li>Introduction to Robotics systems & Microcontroller</li>
+                  <li>Introduction to Arduino Architecture</li>
+                  <li>Understanding the Electronics involved in the robot</li>
+                  <li>Digital IR sensors working & calibration</li>
+                  <li>Programming the robot</li>
+                  <li>Understand Arduino Architecture and its Programming</li>
+                  <li>
+                    Hands-on experience on block based programming on Arduino
+                  </li>
+                </ul>
+                {/* </p> */}
                 <p className="mt-6 text-lg">Course Structure</p>
-                <p className="text-base text-gray-600">
-                  <ul className="ml-4 list-disc">
-                    <li>Lecture Session - 1 hours</li>
-                    <li>Fabrication Session - 4 hours</li>
-                    <li>Programming Session - 2 hours</li>
-                    <li>Testing Session - 1 hour</li>
-                  </ul>
-                </p>
+                {/* <p className="text-base text-gray-600"> */}
+                <ul className="ml-4 list-disc">
+                  <li>Lecture Session - 1 hours</li>
+                  <li>Fabrication Session - 4 hours</li>
+                  <li>Programming Session - 2 hours</li>
+                  <li>Testing Session - 1 hour</li>
+                </ul>
+                {/* </p> */}
                 <p className="mt-6 text-lg">Topics Covered</p>
-                <p className="text-base text-gray-600">
-                  <ul className="ml-4 list-disc">
-                    <li>Robotics: Concepts and Applications</li>
-                    <li>DC Motors: Working and Control</li>
-                    <li>Arduino Architecture & its programming</li>
-                    <li>Fabrication of Fire Fighting Robot</li>
-                    <li>Scratch based block programming</li>
-                    <li>Calibration of IR sensors</li>
-                  </ul>
-                </p>
+                {/* <p className="text-base text-gray-600"> */}
+                <ul className="ml-4 list-disc">
+                  <li>Robotics: Concepts and Applications</li>
+                  <li>DC Motors: Working and Control</li>
+                  <li>Arduino Architecture & its programming</li>
+                  <li>Fabrication of Fire Fighting Robot</li>
+                  <li>Scratch based block programming</li>
+                  <li>Calibration of IR sensors</li>
+                </ul>
+                {/* </p> */}
               </div>
               <div>
                 <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
@@ -258,7 +257,7 @@ export default function Home() {
               </h1>
 
               <div className="mt-10 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-              <Member
+                <Member
                   name="Pavan Kumar K."
                   designation="Chair"
                   link="https://www.linkedin.com/in/pavan-kumar-k-036a85202/"
@@ -292,14 +291,14 @@ export default function Home() {
                   link="https://www.linkedin.com/mwlite/in/meena-kumari-subramanyam-b28b56229"
                   image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/MEENA%20KUMARI%201MS21CS109%20.jpg"
                 ></Member>
-                
+
                 <Member
                   name="Shaaru U."
                   designation="Member"
                   link="https://www.linkedin.com/in/shaaru-u-514976227"
                   image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Shaaru_U_1MS21EI050.jpg"
                 ></Member>
-                
+
                 <Member
                   name="Hemanth Kumar NVS"
                   designation="Member"
@@ -348,7 +347,7 @@ export default function Home() {
                   link="https://www.linkedin.com/in/darshan-satish-kumar-907a56268/"
                   image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Darshan%20Satish%20Kumar%2C%201MS22ET010%20.jpg"
                 ></Member>
-                
+
                 <Member
                   name="Chirag P.V."
                   designation="Member"
@@ -362,14 +361,14 @@ export default function Home() {
                   link="https://www.linkedin.com/in/jai-vishnu-8b17511a3/"
                   image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Jai%20Vishnu%20DK_1MS23EC046.jpg"
                 ></Member>
-                
+
                 <Member
                   name="Illaquan Rajesh Indu"
                   designation="Member"
                   link="https://www.linkedin.com/in/ilaqquan-r-i-1523332b3/"
                   image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Ilaqquan%20Rajesh%20Indu-%20%201MS22EC050%20.jpg"
                 ></Member>
-                
+
               </div>
             </div>
           </div>
@@ -388,6 +387,6 @@ export default function Home() {
         </div>
       </main>
       <Footer />
-    </>
+    </section>
   )
 }

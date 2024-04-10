@@ -1,4 +1,5 @@
 import { Fragment } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { Popover, Transition } from '@headlessui/react';
@@ -10,6 +11,8 @@ import { Logo } from '@/components/Logo';
 import { Image } from 'next/image';
 
 function MobileNavigation() {
+  const router = useRouter();
+
   return (
     <Popover>
       {({ open, close }) => (
@@ -60,21 +63,38 @@ function MobileNavigation() {
             >
               <Popover.Panel
                 as="ul"
-                className="absolute inset-x-0 top-full mt-4 origin-top space-y-4 rounded-2xl bg-white p-6 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
+                className="absolute inset-x-0 mt-[1rem] origin-top space-y-4 rounded-2xl bg-white p-6 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5 z-50"
               >
                 <li>
-                  <Link href="/gallery" className="block w-full" onClick={() => close()}>
-                    Gallery
+                  <Link href="/" className={`block w-full mob-button ${router.pathname === '/' && 'active'}`} onClick={() => close()}>
+                    <b>Home</b>
+                  </Link>
+                </li>
+                
+                <li>
+                  <Link href="/faculty" className={`block w-full mob-button ${router.pathname === '/faculty' && 'active'}`} onClick={() => close()}>
+                   <b>Faculty</b> 
                   </Link>
                 </li>
                 <li>
-                  <Link href="/faculty" className="block w-full" onClick={() => close()}>
-                    Faculty
+                  <Link href="https://ieee-ritb-website.vercel.app/collab" className="block w-full" onClick={() => close()}>
+                     Collab With US
                   </Link>
                 </li>
+                
                 <li>
+<<<<<<< HEAD
                   <Link href="/contactus" className="block w-full" onClick={() => close()}>
                     Contact Us
+=======
+                  <Link href="/collab" className={`block w-full mob-button ${router.pathname === '/collab' && 'active'}`} onClick={() => close()}>
+                   <b>Collab</b> 
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/contactus" className={`block w-full mob-button ${router.pathname === '/contactus' && 'active'}`} onClick={() => close()}>
+                   <b>Contact Us</b> 
+>>>>>>> 6f3314e8d50d60b248c223424ce8a4ef2ae644d4
                   </Link>
                 </li>
               </Popover.Panel>
@@ -87,9 +107,36 @@ function MobileNavigation() {
 }
 
 export function Header() {
-  const router = useRouter(); 
+  const router = useRouter();
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
+      setPrevScrollPos(currentScrollPos);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [prevScrollPos, visible]);
+
   return (
+<<<<<<< HEAD
+    
+
     <header className="z-50 border border-b bg-blue-50 py-4 shadow-sm sticky top-0 !important">
+=======
+    <header
+      className={`z-50 border border-b bg-blue-50 py-4 shadow-md transition-all duration-500 ease-in-out ${
+        visible ? 'top-0' : '-top-full'
+      } fixed w-full`}
+    >
+>>>>>>> 6f3314e8d50d60b248c223424ce8a4ef2ae644d4
       <div className="mx-auto max-w-6xl px-4 sm:px-4 lg:max-w-4xl flex justify-between items-center">
         <div>
           <Link href="/">
@@ -114,6 +161,16 @@ export function Header() {
               </Link>
             </li>
             <li className="ml-6 hidden md:block">
+<<<<<<< HEAD
+              <Link href="https://ieee-ritb-website.vercel.app/collab" className={`nav-link ${router.pathname === 'https://ieee-ritb-website.vercel.app/collab' && 'active'}`}>
+                <b>Collab with us</b>
+=======
+              <Link href="/collab" className={`nav-link ${router.pathname === '/collab' && 'active'}`}>
+                <b>Collab</b> 
+>>>>>>> 6f3314e8d50d60b248c223424ce8a4ef2ae644d4
+              </Link>
+            </li>
+            <li className="ml-6 hidden md:block">
               <Link href="/contactus" className={`nav-link ${router.pathname === '/contactus' && 'active'}`}>
                 <b>Contact Us</b>
               </Link>
@@ -127,10 +184,3 @@ export function Header() {
     </header>
   );
 }
-
-
-
-
-
-
-
