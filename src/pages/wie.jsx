@@ -85,7 +85,7 @@ export default function Home() {
               </Swiper>
 
               <div>
-                <h1 className="mt-10 text-justify lg:text-2xl tracking-tight text-gray-900 text-lg">
+                <h1 className="mt-10 text-justify lg:text-lg tracking-tight text-gray-900 text-lg mb-4">
                   IEEE RIT-B Women in Engineering (IEEE RIT-B WIE) is a local
                   chapter of IEEE RIT-B that was established in 2016. Our
                   primary objective is to empower and engage women in the
@@ -101,6 +101,12 @@ export default function Home() {
                   environment that encourages women to overcome barriers and
                   succeed in their chosen fields.
                 </h1>
+                <p className='text-xl font-semibold'>WIE Empowers and Connects through Successful Online Events and Technodium</p>
+
+                <p className='text-lg'><strong>IEEE WIE Technodium 2021:</strong></p>
+                <p className='text-lg'>The highlight of WIE's accomplishments in 2021 was the successful conduction of the IEEE WIE Technodium. This three-day event, held in March 2021 under the theme "Leveraging Women Leaders For Managing Paradigm Shifts," provided a platform for both IEEE and non-IEEE members to participate and showcase their talents. Various competitions, including the Bridge Master, Catch the Anomaly, Ideathon, Web Development Hackathon, Scavenge, and the Tech Nerd Quiz, engaged participants in stimulating challenges. The Technodium also featured workshops on "Alice and Bob in Cryptoland" and "Excel and Elevate." A panel discussion and a prize distribution ceremony marked the conclusion of this prestigious event.</p>
+
+                <p className='text-lg'>At WIE, teamwork is of utmost importance. The organization values the opinions and inputs of each team member, ensuring that decisions taken are fruitful and inclusive. Despite the limitations imposed by the pandemic, WIE successfully maintained effective communication through frequent online meetings on platforms like Google Meet. Online messengers facilitated fast and efficient communication among team members. Furthermore, WIE actively promotes social interaction and productive sessions by organizing.</p>
               </div>
 
               <h1 className="mb-10 mt-10 text-2xl font-bold tracking-tight text-gray-900">
@@ -109,87 +115,94 @@ export default function Home() {
 
               <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
                 <Member
-                  name="Anagha Kalyani"
-                  designation="Chair"
-                  link="https://www.linkedin.com/in/anagha-kalyani-b294b8210"
-                  image="https://drive.google.com/uc?id=1vBINJ5CV6ife6C6XKY2auW6FBxNqaul-&export=download"
-                ></Member>
-
-                <Member
-                  name="Diya James"
-                  designation="Secretary"
-                  link="https://www.linkedin.com/in/diyajames"
-                  image="https://drive.google.com/uc?id=1OpgR36UfgTYTzn__kjEIkGzoU2Nw7ieG&export=view"
-                ></Member>
-
-                <Member
-                  name="Smruthi D Sharma"
-                  designation="Vice Chair"
+                  name="Smruthi"
+                  designation="Member"
                   link="https://www.linkedin.com/in/smruthi-d-sharma-22913b279"
                   image="https://drive.google.com/thumbnail?id=1pffkESGzNWkRh3B6SBuoODMDE4Gii8ys"
                 ></Member>
-
                 <Member
-                  name="Vidhi Rastogi"
-                  designation="Member"
-                  link="https://www.linkedin.com/in/vidhi-rastogi-408a54220"
-                  image="https://drive.google.com/uc?id=1V609IGibJMs6wUqSgzGfA1pndeeIaZr3&export=view"
-                ></Member>
-
-                <Member
-                  name="Snehal Vats"
-                  designation="Member"
-                  link="https://www.linkedin.com/in/snehal-vats-77652a1b9"
-                  image="https://drive.google.com/uc?id=1fS5LLDov-Vpkl1gCMO3ULClLHf3-p7OV&export=download"
-                ></Member>
-
-                <Member
-                  name="Joshitha Darsi"
-                  designation="Member"
-                  link="https://www.linkedin.com/in/joshitha-darsi-571172239"
-                  image="https://drive.google.com/uc?id=1DKi_MYNsREBDz2tGpd1S8I3O9iFwqfrf&export=view"
-                ></Member>
-
-                <Member
-                  name="Malla Rajeswari"
-                  designation="Member"
-                  link="https://www.linkedin.com/in/rajeswari-malla-61045623a"
-                  image="https://drive.google.com/uc?id=1OW7BM8oIbjMRWkmKJ1-NSXVm7DiNT2Vp&export=view"
-                ></Member>
-
-                <Member
-                  name="Shreeya R"
-                  designation="Member"
-                  link="https://www.linkedin.com/in/shreeya-r-b62703270"
-                  image="https://drive.google.com/uc?id=1mKC1cH2j396VRoyL8VybdGZjSLIfrxIM&export=view"
-                ></Member>
-
-                <Member
-                  name="Jayashree"
-                  designation="Member"
-                  link="https://www.linkedin.com/in/jayshree-v-j-a1471b23b"
-                  image="https://drive.google.com/thumbnail?id=1DHmY1sJ6jbCRrcqjNrlDJTD4JwhD6rwe"
-                ></Member>
-
-                <Member
-                  name="Aditi Kataria"
-                  designation="Member"
-                  link="https://www.linkedin.com/in/aditi-kataria-9502b3279"
-                  image="https://drive.google.com/thumbnail?id=196WQSl_OB9iGlvTvTPr1htqqidkOmqnk"
-                ></Member>
-
-                <Member
-                  name="Harini N"
+                  name="Harini"
                   designation="Member"
                   link="https://www.linkedin.com/in/harini-n-844817263"
                   image="https://drive.google.com/thumbnail?id=1M9KhQD8fJKYjJi_q3yzSc5zxxIu7I9zN"
                 ></Member>
-
                 <Member
-                  name="Aiman Naqvi"
+                  name="Shraddha"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/shraddha-rao-m"
+                  image="https://drive.google.com/thumbnail?id=19th-n5wZDaoqnL5AIG2ceNuYUvZVMcud"
+                ></Member>
+                <Member
+                  name="Aiman"
                   designation="Member"
                   link="https://www.linkedin.com/in/aiman-n-896240279/"
                   image="https://drive.google.com/thumbnail?id=1aKYTCFxPemln-WbJVgApLLo6KEGmSbPz"
+                ></Member>
+                <Member
+                  name="Vaishnavi"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/vaishnavi-ravi-kumar-624301209"
+                  image="https://drive.google.com/thumbnail?id=174zst9F4sdTTv_fA4wVCWs3xbNjjiggX"
+                ></Member>
+                <Member
+                  name="Shreya J"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/shreya-j-3b6938244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  image="https://drive.google.com/thumbnail?id=105SLsxvCkM7voVCqkWRtN9__g4V3OV06"
+                ></Member>
+                <Member
+                  name="Anishka"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/anishka-avinash-a07839291"
+                  image="https://drive.google.com/thumbnail?id=1Cv70_yrpkY--OwaQVMmwzJ2qvCAmWWp5"
+                ></Member>
+                <Member
+                  name="Samhitha"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/samhitha-jp-467311246"
+                  image="https://drive.google.com/thumbnail?id=17srrXK8vpCpwYSEGKOpbSRInUQn71eHb"
+                ></Member>
+                <Member
+                  name="Jayshree"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/jayshree-vj"
+                  image="https://drive.google.com/thumbnail?id=1DHmY1sJ6jbCRrcqjNrlDJTD4JwhD6rwe"
+                ></Member>
+                <Member
+                  name="Lalitha"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/lalitha-k-c-4447a8281"
+                  image="https://drive.google.com/thumbnail?id=1th452M2ebQq5XVGtp19mwmUCzZvpfSNY"
+                ></Member>
+                <Member
+                  name="Trisha N Iyer"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/trisha-n-iyer-b506192b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  image="https://drive.google.com/thumbnail?id=1i3RJ6fe4OXSw7HKD17hCCENL2bzSpa67"
+                ></Member>
+                <Member
+                  name="Aishwarya S"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/aishwarya-s-73b61b2b2"
+                  image="https://drive.google.com/thumbnail?id=1OxNj-GbuwFFRFBh7vOyhMxUOJIOt0my0"
+                ></Member>
+                <Member
+                  name="Aditi Kataria"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/aditi-kataria-9502b3279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                  image="https://drive.google.com/thumbnail?id=196WQSl_OB9iGlvTvTPr1htqqidkOmqnk"
+                ></Member>
+                <Member
+                  name="Manya Ravishankar"
+                  designation="Member"
+                  link="www.linkedin.com/in/manya-ravishankar-8841922b3"
+                  image="https://drive.google.com/thumbnail?id=14mVG2ckvDyrmXE6E8HBilb7TmlSs59Fd"
+                ></Member>
+                <Member
+                  name="Rajeswari"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/rajeswari-malla-61045623a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  image="https://drive.google.com/thumbnail?id=1qrTREHYJ0sLtwSLAzYksLaMbeju9uchv"
                 ></Member>
               </div>
 
