@@ -264,26 +264,10 @@ export default function Home() {
                 />
                 <Member
                   name="Dhanyath R"
-<<<<<<< HEAD
-                  designation="Execom"
-                  link="https://www.linkedin.com/in/dhanyath-r-4a9737228"
-                  image="https://drive.google.com/uc?id=1VRA9zCcXn0wiO5lC0RgQAFs29RRZisz4&export=view"
-                ></Member>
-
-                
-                <Member
-                  name="Sharon Theres Joseph"
-                  designation="Execom"
-                  link="https://www.linkedin.com/in/dhanyath-r-4a9737228"
-                  image="https://github.com/aarthipv/profileimages/blob/main/Sharon%20Theres%20Joseph%20_1MS22ET044.jpg?raw=true"
-                ></Member>
-
-=======
                   designation="Secretary"
                   link="https://www.linkedin.com/in/looking-out-for-dhanyath-ravi/"
                   image="https://drive.google.com/thumbnail?id=1kdqvZJ1byu6JFV-AVmoThv9LoUBs6Dm1"
                 />
->>>>>>> 6f3314e8d50d60b248c223424ce8a4ef2ae644d4
                 <Member
                   name="Nishanth P Kashyap"
                   designation="Vice Chair"

@@ -60,7 +60,7 @@ export default function Home() {
     name="Shireen Dash"
     designation="Public Relations Head"
     link="https://www.linkedin.com/in/shireen-dash-300b96278/"
-    image="https://drive.google.com/thumbnail?id=1vBINJ5CV6ife6C6XKY2auW6FBxNqaul">
+    image="https://github.com/aarthipv/profileimages/blob/main/Shireen%20Dash_1ms21ei052.jpeg?raw=true">
   </Member>
 
   {/* Public Relations Co-Head */}

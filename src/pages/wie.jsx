@@ -164,12 +164,7 @@ export default function Home() {
                   image="https://drive.google.com/uc?id=1mKC1cH2j396VRoyL8VybdGZjSLIfrxIM&export=view"
                 ></Member>
 
-                <Member
-                  name="Jayashree"
-                  designation="Member"
-                  link="https://www.linkedin.com/in/jayshree-v-j-a1471b23b"
-                  image="https://drive.google.com/thumbnail?id=1DHmY1sJ6jbCRrcqjNrlDJTD4JwhD6rwe"
-                ></Member>
+                
 
                 <Member
                   name="Aditi Kataria"
