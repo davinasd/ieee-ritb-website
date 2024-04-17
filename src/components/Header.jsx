@@ -83,10 +83,6 @@ function MobileNavigation() {
                 </li>
                 
                 <li>
-<<<<<<< HEAD
-                  <Link href="/contactus" className="block w-full" onClick={() => close()}>
-                    Contact Us
-=======
                   <Link href="/collab" className={`block w-full mob-button ${router.pathname === '/collab' && 'active'}`} onClick={() => close()}>
                    <b>Collab</b> 
                   </Link>
@@ -94,7 +90,6 @@ function MobileNavigation() {
                 <li>
                   <Link href="/contactus" className={`block w-full mob-button ${router.pathname === '/contactus' && 'active'}`} onClick={() => close()}>
                    <b>Contact Us</b> 
->>>>>>> 6f3314e8d50d60b248c223424ce8a4ef2ae644d4
                   </Link>
                 </li>
               </Popover.Panel>
@@ -126,17 +121,11 @@ export function Header() {
   }, [prevScrollPos, visible]);
 
   return (
-<<<<<<< HEAD
-    
-
-    <header className="z-50 border border-b bg-blue-50 py-4 shadow-sm sticky top-0 !important">
-=======
     <header
       className={`z-50 border border-b bg-blue-50 py-4 shadow-md transition-all duration-500 ease-in-out ${
         visible ? 'top-0' : '-top-full'
       } fixed w-full`}
     >
->>>>>>> 6f3314e8d50d60b248c223424ce8a4ef2ae644d4
       <div className="mx-auto max-w-6xl px-4 sm:px-4 lg:max-w-4xl flex justify-between items-center">
         <div>
           <Link href="/">
@@ -161,13 +150,8 @@ export function Header() {
               </Link>
             </li>
             <li className="ml-6 hidden md:block">
-<<<<<<< HEAD
-              <Link href="https://ieee-ritb-website.vercel.app/collab" className={`nav-link ${router.pathname === 'https://ieee-ritb-website.vercel.app/collab' && 'active'}`}>
-                <b>Collab with us</b>
-=======
               <Link href="/collab" className={`nav-link ${router.pathname === '/collab' && 'active'}`}>
                 <b>Collab</b> 
->>>>>>> 6f3314e8d50d60b248c223424ce8a4ef2ae644d4
               </Link>
             </li>
             <li className="ml-6 hidden md:block">

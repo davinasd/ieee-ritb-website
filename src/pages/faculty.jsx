@@ -143,6 +143,9 @@ export default function officebearers() {
                     <p className="text-xl font-semibold text-gray-900">
                       {member.name}
                     </p>
+                    <div className="text-md font-semibold text-gray-500">
+                      {member.chapter}
+                    </div>
                     <a href={member.link} className="text-md font-medium text-blue-500 underline">
                       View Profile
                     </a>
