@@ -111,13 +111,7 @@ const members = [
     image:
       'https://github.com/aarthipv/profileimages/blob/main/creativity/M%20R%20Mohan%20Reddy%201MS22EC069.jpg?raw=true',
   },
-  {
-    name: 'Sahana Bhagavant Savantanavar',
-    designation: 'Member',
-    link: 'https://www.linkedin.com/in/sahana-savantanavar-162b20259/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-    image:
-      'https://drive.google.com/uc?id=1P__rOfY4ik__wmjTU6_p9Wj587B9gJMr&export=view',//not uploaded
-  },
+  
   {
     name: 'Sachin R P ',
     designation: 'Member',
