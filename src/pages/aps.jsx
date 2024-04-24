@@ -64,12 +64,12 @@ const members = [
     image: "https://github.com/aarthipv/profileimages/blob/main/aps/Dheeraj%20V%201MS22EC042_.jpg?raw=true"
   },
   
-  {
-    name: "Disha K",
-    designation: "Vice Secretary",
-    link: "https://www.linkedin.com/in/disha-k-603563258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    image: "https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/APS/Disha%20Ravindra%20Kadarkoppa_1MS22EI017_?raw=true"
-  },
+  //{
+   // name: "Disha K",
+  //  designation: "Vice Secretary",
+   // link: "https://www.linkedin.com/in/disha-k-603563258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  //  image: "https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/APS/Disha%20Ravindra%20Kadarkoppa_1MS22EI017_?raw=true"
+ // },
   
   {
     name: "B M Vishnu",
