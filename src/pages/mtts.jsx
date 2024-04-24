@@ -179,12 +179,7 @@ export default function Home() {
                   link="https://www.linkedin.com/in/vidit-agrawal-161047289"
                   image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/MTTS/Vidit%20agrawal-%201MS23EC053-T.jpg?raw=true"
                 />
-                <Member
-                  name="Pranav B M (Member)"
-                  designation="Member"
-                  link=""
-                  image="#"
-                />
+                
               </div>
 
               <div className="mt-10 flex items-center justify-center gap-x-6">
