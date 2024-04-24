@@ -43,62 +43,92 @@ const routs = [
   {
     name: 'Creativity',
     link: '/creativity',
+    description: 'Explore your creative side with our Creativity society!',
+    image: '/path/to/creativity_image.jpg',
   },
   {
     name: 'APS',
     link: '/aps',
+    description: 'Explore your creative side with our Creativity society!',
+    image: '/path/to/creativity_image.jpg',
   },
   {
     name: 'Computer Society',
     link: '/computersociety',
+    description: 'Explore your creative side with our Creativity society!',
+    image: '/path/to/creativity_image.jpg',
   },
   {
     name: 'PR Sponsorship',
     link: '/pr_sponsorship',
+    description: 'Explore your creative side with our Creativity society!',
+    image: '/path/to/creativity_image.jpg',
   },
   {
     name: 'COMSOC',
     link: '/comsoc',
+    description: 'Explore your creative side with our Creativity society!',
+    image: '/path/to/creativity_image.jpg',
   },
   {
     name: 'Documentation',
     link: '/documentation',
+    description: 'Explore your creative side with our Creativity society!',
+    image: '/path/to/creativity_image.jpg',
   },
   {
     name: 'RoboRIT',
     link: '/roborit',
+    description: 'Explore your creative side with our Creativity society!',
+    image: '/path/to/creativity_image.jpg',
   },
   {
     name: 'XTREME',
     link: '/xtreme',
+    description: 'Explore your creative side with our Creativity society!',
+    image: '/path/to/creativity_image.jpg',
   },
   {
     name: 'Digital Design',
     link: '/digitaldesign',
+    description: 'Explore your creative side with our Creativity society!',
+    image: '/path/to/creativity_image.jpg',
   },
   {
     name: 'Sensor Council',
     link: '/sensor_council',
+    description: 'Explore your creative side with our Creativity society!',
+    image: '/path/to/creativity_image.jpg',
   },
   {
     name: 'WIE',
     link: '/wie',
+    description: 'Explore your creative side with our Creativity society!',
+    image: '/path/to/creativity_image.jpg',
   },
   {
     name: 'MTTS',
     link: '/mtts',
+    description: 'Explore your creative side with our Creativity society!',
+    image: '/path/to/creativity_image.jpg',
   },
   {
     name: 'PES',
     link: '/pes',
+    description: 'Explore your creative side with our Creativity society!',
+    image: '/path/to/creativity_image.jpg',
   },
   {
     name: 'SPS',
     link: '/sps',
+    description: 'Explore your creative side with our Creativity society!',
+    image: '/path/to/creativity_image.jpg',
   },
   {
     name: 'Web Resources',
     link: '/web_resources',
+    description: 'Explore your creative side with our Creativity society!',
+    image: '/path/to/creativity_image.jpg',
   },
 ]
 
@@ -297,29 +327,36 @@ export function Hero() {
             All the <span className="text-lg lg:text-2xl font-bold text-blue-500">societies and councils</span> under IEEE-RIT
           </h1>
           <ul
-            role="list"
-            className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-6 text-md sm:mt-10 sm:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-3 lg:items-center"
-          >
-            {routs.map((item, index) => (
-              <li
-                key={index}
-                className="rounded-xl shadow-lg ring ring-indigo-50 transition hover:shadow-sm"
-              >
-                <div className="rounded-xl bg-blue-100 p-5 sm:p-6">
-                  <h3 className="text-gray-9 text-center text-base font-semibold uppercase">
-                    {item.name}
-                  </h3>
-                  <div className="flex justify-center">
-                    <a href={item.link}>
-                      <button className="mt-2 rounded-lg border bg-transparent px-4 py-2 font-semibold text-blue-700 shadow-lg shadow-blue-900/10 hover:border-transparent hover:bg-blue-900 hover:text-white">
-                        View
-                      </button>
-                    </a>
-                  </div>
-                </div>
-              </li>
-            ))}
-          </ul>
+  role="list"
+  className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-6 text-md sm:mt-10 sm:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-3 lg:items-center"
+>
+  {routs.map((item, index) => (
+    <li
+      key={index}
+      className="rounded-xl shadow-lg ring ring-indigo-50 transition hover:shadow-sm relative overflow-hidden"
+    >
+      <div className="rounded-xl bg-blue-100 p-5 sm:p-6">
+        <h3 className="text-gray-9 text-center text-base font-semibold uppercase">
+          {item.name}
+        </h3>
+        {/* Image */}
+        <img src={item.image} alt={item.name} className="w-full h-full object-cover rounded-xl mt-4" />
+        {/* Description and View Button */}
+        <div className="absolute inset-0 flex flex-col items-center justify-end opacity-0 hover:opacity-100 transition-opacity duration-300">
+          <div className="bg-white p-2 rounded-xl">
+            <p className="text-xs text-gray-500 mt-2">{item.description}</p>
+          </div>
+          <a href={item.link} className="mt-2">
+            <button className="rounded-lg border bg-transparent px-4 py-2 font-semibold text-blue-700 shadow-lg shadow-blue-900/10 hover:border-transparent hover:bg-blue-900 hover:text-white">
+              View
+            </button>
+          </a>
+        </div>
+      </div>
+    </li>
+  ))}
+</ul>
+
 
           <h1 className="mt-10 text-center text-xl lg:text-2xl font-bold tracking-tight text-gray-900">
             <span className="text-lg lg:text-2xl font-bold text-blue-500">Office Bearers</span> of IEEE-RIT
