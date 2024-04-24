@@ -123,10 +123,7 @@ export default function Home() {
 
   </Member>
 
-  <Member
-    name="Abhiraj Paralkar"
-    link="https://www.linkedin.com/in/abhiraj-paralkar-64613a2a6/"
-    image="">//Not uploaded
+
 
   </Member>
 
