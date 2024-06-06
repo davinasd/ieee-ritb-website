@@ -10,6 +10,7 @@ const nextConfig = {
       'i.ibb.co',
       'github.com',
       'raw.githubusercontent.com',
+      'drive.google.com',
     ],
   },
   webpack: (config) => {
