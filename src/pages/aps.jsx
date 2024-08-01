@@ -57,7 +57,7 @@ const members = [
   {
     name: "Disha K",
     designation: "Co- Secretary",
-    link: "https://www.linkedin.com/in/disha-k-603563258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    link: "https://github.com/aarthipv/profileimages/blob/main/aps/Disha%20Ravindra%20Kadarkoppa_1MS22EI017%20.HEIC",
     image: "https://drive.google.com/thumbnail?id=1EjBWat9H7vBRshsFqTZqRAHYC3-Zcfhb"//not uploaded
   },
   

@@ -132,7 +132,7 @@ export default function Home() {
   <Member
     name="Abhiraj Paralkar"
     link="https://www.linkedin.com/in/abhiraj-paralkar-64613a2a6/"
-    image="https://drive.google.com/uc?id=16-xNXqYNDVTtcPph5CNV001j0fFlBoOV&export=view">
+    image="https://github.com/aarthipv/profileimages/blob/main/Abhiraj%20P%201MS22CH004.jpg">
 
   </Member>
 

@@ -254,37 +254,37 @@ export default function Home() {
                   name="Dharshan N"
                   designation="Chairperson"
                   link="http://www.linkedin.com/in/dharshan-580755257"
-                  image="https://drive.google.com/thumbnail?id=1yTodYTvBoPH_qgdENTT1fmH4CX3Q8J5U"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/N.Dharshan_1MS21ET031.jpg"
                 />
                 <Member
                   name="Aditya Kumar Singh"
                   designation="Treasurer"
                   link="https://www.linkedin.com/in/aditya-singh-b241a3271"
-                  image="https://drive.google.com/thumbnail?id=1-JN8su4oRkHnV7wClcqzkr7xjWOS4YIz"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/IMG-20240128-WA0016.jpg"
                 />
                 <Member
                   name="Dhanyath R"
                   designation="Secretary"
                   link="https://www.linkedin.com/in/looking-out-for-dhanyath-ravi/"
-                  image="https://drive.google.com/thumbnail?id=1kdqvZJ1byu6JFV-AVmoThv9LoUBs6Dm1"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/Dhanyath%20R__1MS21ET015.png"
                 />
                 <Member
                   name="Nishanth P Kashyap"
                   designation="Vice Chair"
                   link="https://www.linkedin.com/in/nishanth-kashyap-06b979259"
-                  image="https://drive.google.com/thumbnail?id=1Ed1v6eKizOiggquQj5-t4Tg-dk3o24XW"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/Nishanth%20P%20Kashyap_1MS22ET028.jpg"
                 />
                 <Member
                   name="Pranav Vasudev"
                   designation="Vice Secretary"
                   link="https://www.linkedin.com/in/pranav-vasudev-2aaa29244"
-                  image="https://drive.google.com/thumbnail?id=1v2lVP5UCmhKcgsCies245TjdVM5wD4zA"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/Pranav_Vasudev_V_1MS22ET034.jpg"
                 />
                 <Member
                   name="Drithi P"
                   designation="Vice Treasurer"
                   link="https://www.linkedin.com/in/drithi-p-b7aa12241"
-                  image="https://drive.google.com/thumbnail?id=1jvtCvYj2y89jA4ihZgVa2TVrWV0Lb8rV"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/Drithi%20P_1MS22ET012.jpg"
                 />
                 <Member
                   name="Gaurav C Belawadi"
@@ -296,13 +296,13 @@ export default function Home() {
                   name="Vaibhav Gowda G P"
                   designation="Execom"
                   link="https://www.linkedin.com/in/vaibhav-gowda-34548124a"
-                  image="https://drive.google.com/thumbnail?id=1k2r59q770IrDxs4rqaULQIvzcXSirJqa"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/Vaibhav_Gowda_1MS21EC128.jpg"
                 />
                 <Member
                   name="Yashaswini M"
                   designation="Execom"
                   link="https://www.linkedin.com/in/yashaswini-m-722735229"
-                  image="https://drive.google.com/thumbnail?id=1gdpQuqFuQ4Y_DgnGIp69w2qQJskUposR"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/Yashaswini%20M_1MS21EC132.jpg"
                 />
                 <Member
                   name="Tanisha P Hegde"
@@ -320,7 +320,7 @@ export default function Home() {
                   name="Sneha Tapadar"
                   designation="Execom"
                   link="https://www.linkedin.com/in/sneha-tapadar-26b8632b2"
-                  image="https://drive.google.com/thumbnail?id=1t9gvgoDL2NVNvA88xrZa3bNzGRYQapay"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/Sneha%20tapadar%20_%201MS23ET055.jpg"
                 />
                 <Member
                   name="Mohammed Aamir Ahmed"
@@ -332,25 +332,25 @@ export default function Home() {
                   name="Priyanshu Trivedi"
                   designation="Execom"
                   link="https://www.linkedin.com/in/priyanshu-trivedi-4a8746293"
-                  image="https://drive.google.com/thumbnail?id=1u_b296g1V0Zl9vkHDhPnkQXBnNJnxZTz"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/Priyanshu_Trivedi_1MS23ET020-T.jpg"
                 />
                 <Member
                   name="Harshavardhana H D"
                   designation="Execom"
                   link="https://www.linkedin.com/in/harshavardhana-h-d-a9a3462b2"
-                  image="https://drive.google.com/thumbnail?id=1r2i1uO_q2ZypuVFMJFTFgMh0uXl6f9QG"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/Harshavardhana%20H%20D%2C%201MS22ET014.jpg"
                 />
                 <Member
                   name="Mahantesh Bandi"
                   designation="Execom"
                   link="https://www.linkedin.com/in/mahantesh-m-bandi-a3237423a"
-                  image="https://drive.google.com/thumbnail?id=1ocuFJJwNMqMjIMDdUKSK2lJTGmnf_aR_"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/Mahantesh_1ms21ec061.jpg"
                 />
                 <Member
                   name="Rishabh Bhardwaj"
                   designation="Execom"
                   link="http://linkedin.com/in/rishabh-bhardwaj-256369289"
-                  image="https://drive.google.com/thumbnail?id=1i-dYvtVYcxZtis_OsTYnWuxBpVNr8PDa"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/Rishabh%20%20bhardwaj%20_1MS23ET006-T.jpg"
                 />
                 <Member
                   name="Suhas Reddy"
@@ -362,73 +362,73 @@ export default function Home() {
                   name="Mahima B M"
                   designation="Execom"
                   link="https://www.linkedin.com/in/mahima-bm-602a142a5"
-                  image="https://drive.google.com/thumbnail?id=1Gwuzdx8b5rvRILLZYCSgh654ftHBx-Io"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/Mahima%20BM%20%201MS22ET020_.jpg"
                 />
                 <Member
                   name="Sukruthi Reddy D Y"
                   designation="Execom"
                   link="https://www.linkedin.com/in/sukruthi-reddy-3083442b2"
-                  image="https://drive.google.com/thumbnail?id=1rabaKveDX7DBRKxGULOpHHpI0njsLZn-"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/Sukruthi%20Reddy%20D%20Y_1MS22ET054.jpg"
                 />
                 <Member
                   name="Sanath kumar Biradar"
                   designation="Execom"
                   link="https://www.linkedin.com/in/sukruthi-reddy-3083442b2"
-                  image="https://drive.google.com/thumbnail?id=1vUJaQqCdx16BNvv-FKBUf208rbeJqoMa"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/Sanathkumar%20Biradar_1MS22ET043.HEIC"
                 />
                 <Member
                   name="Pransu kumar"
                   designation="Execom"
                   link="https://www.linkedin.com/in/pransu-kumar-5547b8281"
-                  image="https://drive.google.com/thumbnail?id=1DIUur8Be2dyp0nREUpRDXuMixk_xzaQP"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/PransuKumar_1MS23ET013-T.png"
                 />
                 <Member
                   name="Anishka Avinash"
                   designation="Execom"
                   link="https://www.linkedin.com/in/anishka-avinash-a07839291"
-                  image="https://drive.google.com/thumbnail?id=1muvwSVtIvuSug_o59eq8BKubz9msEIxX"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/Anishka%20Avinash_1MS22ET002_.jpg"
                 />
                 <Member
                   name="Tejasvi S N"
                   designation="Execom"
                   link="https://www.linkedin.com/in/tejasvi-s-n-10a511271"
-                  image="https://drive.google.com/thumbnail?id=1PUyXVUIwYl44voTUwRGxr1cHdN90Jdil"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/Tejasvi%20S%20N-1MS22ET405.jpg"
                 />
                 <Member
                   name="UmmeKulsum Yasir"
                   designation="Execom"
                   link="https://www.linkedin.com/in/umme-kulsum-yasir-2212a42a0"
-                  image="https://drive.google.com/thumbnail?id=1jULmCk-7CpRRg3ANpgQYh0i7ghWIIuWB"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/Umme%20Kulsum%20Yasir_1MS22ET057.jpg"
                 />
                 <Member
                   name="Divvyaa S Nair"
                   designation="Execom"
                   link="https://in.linkedin.com/in/divvya-nair-8b76b62a1"
-                  image="https://drive.google.com/thumbnail?id=1POxxkURoTvnHiOlBqxFIlJy-KCfjJLu7"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/Divvyaa%20S%20Nair_1MS22ET011.jpg"
                 />
                 <Member
                   name="Divya M Narwade"
                   designation="Execom"
                   link="https://www.linkedin.com/in/divyashree-m-narwade-34171a25a"
-                  image="https://drive.google.com/thumbnail?id=1tOWCXXUZggwNlD8dXKEjw89R-Z0kVNrf"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/Divyashree%20M%20Narwade_1MS22EC044.jpg"
                 />
                 <Member
                   name="Fathima Ibrahim"
                   designation="Execom"
                   link="http://www.linkedin.com/in/fathima-ibrahim-5609a0215"
-                  image="https://drive.google.com/thumbnail?id=1hHERpumv9IXLe72uSV0OhGaLtolQ9fEb"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/fathimaibrahim_1ms21et017.heic"
                 />
                 <Member
                   name="RUSHALI S ADDAPA"
                   designation="Execom"
                   link="https://www.linkedin.com/in/rushali-adappa-45531b291"
-                  image="https://drive.google.com/thumbnail?id=1Id3lQ0l9ADbosaU1XbQIGZKd1-WvQf57"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/Rushali_Adappa_1MS21EC089.jpg"
                 />
                 <Member
                   name="Karthik A S"
                   designation="Execom"
                   link="https://www.linkedin.com/in/karthik-a-9470372b3"
-                  image="https://drive.google.com/thumbnail?id=1T5iLndd8ZyjhoD92fNhqzvz2ywoTZE2r"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/Karthik%20A%201MS23ET401-T.jpg"
                 />
               </div>
 

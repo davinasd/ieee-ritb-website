@@ -208,14 +208,14 @@ export default function Home() {
                   name="Nikith Ganga"
                   designation="Member"
                   link="https://www.linkedin.com/in/nikith-ganga/"
-                  image="https://drive.google.com/thumbnail?id=1vEHxIk8ZmgTFq0vGaIj8UYAnK1rjdcsW"//not uploaded
+                  image="https://github.com/aarthipv/profileimages/blob/main/cs/NikithGanga_1MS21CS084.jpeg"//not uploaded
                 ></Member>
 
                 <Member
                   name="Shraddha Vinod Prabhu"
                   designation="Member"
                   link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"
-                  image="https://drive.google.com/thumbnail?id=1-PNhhFVQobP0Pb826X2kEyp3El5d337v"//not uploaded
+                  image="https://github.com/aarthipv/profileimages/blob/main/cs/Shraddha_Prabhu_1MS21CS118.jpg"//not uploaded
                 ></Member>
 
                 <Member
@@ -243,7 +243,7 @@ export default function Home() {
                   name="Aishwarya R Dongal"
                   designation="Member"
                   link="https://www.linkedin.com/in/aishwarya-r-dongal-a69a90271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                  image="https://drive.google.com/thumbnail?id=17RHL292ZxgmvLGoCQfKYm4j3UGtnXDXx"//not uploaded
+                  image="https://github.com/aarthipv/profileimages/blob/main/cs/Aishwarya%20Dongal.jpeg"//not uploaded
                 ></Member>
 
                 <Member
@@ -257,7 +257,7 @@ export default function Home() {
                   name="Riya Kumari"
                   designation="Member"
                   link="https://www.linkedin.com/in/riya-kumari-58a923257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                  image="https://drive.google.com/thumbnail?id=1rYAMiDZKsO1BETIs0wJcgQFbVS2MhXg_"//not uploaded
+                  image="https://github.com/aarthipv/profileimages/blob/main/cs/Riya%20Kumari_1MS22IS110.jpg"//not uploaded
                 ></Member>
 
                 <Member
@@ -276,7 +276,7 @@ export default function Home() {
                   name="Shreyaan Kapoor"
                   designation="Member"
                   link="https://www.linkedin.com/in/shreyaan-kapoor-47845427b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-                  image="https://drive.google.com/thumbnail?id=1N91FvdMb8Ri-OGy1jrckQnvk_wpTLcrR"//not uplaoded
+                  image="https://github.com/aarthipv/profileimages/blob/main/cs/Shreyaan%20Kapoor_1MS22IS132.heic"//not uplaoded
                 ></Member>
                 <Member
                 name="Bhuvan Agrawal"
@@ -294,13 +294,13 @@ export default function Home() {
                   name="Pranav M K"
                   designation="Member"
                   link="www.linkedin.com/in/pranav-m-k-186b15291"
-                  image="https://drive.google.com/thumbnail?id=12eF5rNSxcZmUbTqOxCrA3B2MVt9eJPIH"//not uploaded
+                  image="https://github.com/aarthipv/profileimages/blob/main/cs/Pranav%20M%20K%20_%201MS23IS080-T.jpg"//not uploaded
                 ></Member>
                 <Member
                   name="Shantanu Pandey"
                   designation="Member"
                   link="https://www.linkedin.com/in/shantanu-pandey-rit?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                  image="https://drive.google.com/thumbnail?id=1iJSSU3AsHH9xMqX6-gXvx0smf6Y8mvjJ"//not uploaded
+                  image="https://github.com/aarthipv/profileimages/blob/main/cs/Shantanu%20Pandey_1MS22CS129.jpg"//not uploaded
                 ></Member>
                 
               </div>

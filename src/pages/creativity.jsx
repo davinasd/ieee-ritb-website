@@ -77,13 +77,7 @@ const members = [
     image:
       'https://github.com/aarthipv/profileimages/blob/main/creativity/A.NANDINI%201MS22CS002.jpg?raw=true',
   },
-  {
-    name: 'Nandini Poojari',
-    designation: 'Member',
-    link: 'https://www.linkedin.com/in/nandini-poojari-7a06942a7/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-    image:
-      'https://github.com/aarthipv/profileimages/blob/main/creativity/Nandini%20Poojari%201MS22EE031.jpg?raw=true',
-  },
+  
   
   {
     name: 'Zayaan Hussain',
