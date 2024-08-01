@@ -84,7 +84,6 @@ const members = [
     image:
       'https://github.com/aarthipv/profileimages/blob/main/creativity/Nandini%20Poojari%201MS22EE031.jpg?raw=true',
   },
-  
   {
     name: 'Zayaan Hussain',
     designation: 'Member',

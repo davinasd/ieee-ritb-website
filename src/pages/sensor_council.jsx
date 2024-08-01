@@ -92,77 +92,119 @@ export default function Home() {
                   name="Souhadra Shrivastava"
                   designation="Chair"
                   link="https://www.linkedin.com/in/souhadra-shrivastava/"
-                  image="https://drive.google.com/thumbnail?id=1oKyVy5WVewK7wyrLXtfDB7AVetTYuFEo"
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/Souhadra_1MS21ET053.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="Tanisha P Hegde"
                   designation="Secretary"
                   link="https://www.linkedin.com/in/tanisha-p-hegde-510036230"
-                  image="https://drive.google.com/thumbnail?id=1Gh1IShu0AG3wjKhOVEEsUNMCWtMA_Aia"
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/Tanisha%20P%20Hegde_1MS21ET056.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="Chinmay Jindal"
                   designation="Member"
                   link="https://www.linkedin.com/in/chinmay-jindal-49a76024a/"
-                  image="https://drive.google.com/thumbnail?id=1zyDv1Of0aNTY71n9HkW3GB6fjfjcSDND"
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/Chinmay%20Jindal-1MS22AD020.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="Aruna Arunachalam"
                   designation="Member"
                   link="https://www.linkedin.com/in/aruna-arunachalam-7bb5002b3/"
-                  image="https://drive.google.com/thumbnail?id=1RNEFqm_pM-cUoPeHvSE45cFOjZ45Ztqq"
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/Aruna%20Arunachalam_1MS22EC024.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="Suhaas B S"
                   designation="Member"
                   link="https://www.linkedin.com/in/suhaas-b-s-7817262a7/"
-                  image="https://drive.google.com/thumbnail?id=1U48WRdUBaVwmyeuaEthnUzj6_lrNWJdM"
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/Suhaas%20B%20S_1MS21ET054.JPG?raw=true"
                 ></Member>
 
                 <Member
                   name="Siddharth Lunawat"
                   designation="Member"
                   link="https://www.linkedin.com/in/siddharth-lunawat-326146233 "
-                  image="https://drive.google.com/thumbnail?id=1NQ5lKj0sb2cx_GPOpXpggS77q9qU1z1z"
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/Siddharth%20Lunawat_1MS22IS134.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="Adithi Purushothama"
                   designation="Member"
                   link="https://www.linkedin.com/in/adithi-purushothama-3652b92b3/"
-                  image="https://drive.google.com/thumbnail?id=1D51V68oN4GqV6U2bPYA4b4mM9pGf8UvF"
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/Adithi%20Purushothama_1MS22EC008.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="Shree Lakshmi S Shekar"
                   designation="Member"
                   link="https://www.linkedin.com/in/shree-lakshmi-s-shekar-760738266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/Shree%20Lakshmi%20S%20Shekar_1MS22IS129.jpeg"
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/Shree%20Lakshmi%20S%20Shekar%201MS22CS166.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="Likhitha C A"
                   designation="Member"
                   link="https://www.linkedin.com/in/likhitha-ca7813042b3/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_ap"
-                  image="https://drive.google.com/thumbnail?id=1dFYD9GrQ_h5Ob3QoaXhT42D1yZcAxpxd"
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/Likhitha%20C%20A_1MS22EC067.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="Kaustubh Kumar"
                   designation="Member"
                   link="https://www.linkedin.com/in/kaustubh-kumar-274265242/"
-                  image="https://drive.google.com/thumbnail?id=1EGsdTmun5I2OHtqWjfpBwI4lNTmqDvXL"
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/Kaustubh%20kumar%201ms22ad030.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="Archisman Hazra"
                   designation="Member"
                   link="https://www.linkedin.com/in/archisman-hazra-197767298/ "
-                  image="https://drive.google.com/thumbnail?id=1qnFeR7l3kOdyj8uldbnK6UFnxyH1VDqA"
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/Archisman%20Hazra_1MS23EI016.jpg?raw=true"
+                ></Member>
+
+<Member
+                  name="Nisarga M"
+                  designation="Member"
+                  link=" "
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/NISARGA%20M_1MS22ET067.jpg?raw=true"
+                ></Member>
+
+<Member
+                  name="Sree Gowri"
+                  designation="Member"
+                  link=" "
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/Sree%20Gowri%20C%20S%20_1MS22ET050.jpg?raw=true"
+                ></Member>
+
+<Member
+                  name="P Janani"
+                  designation="Member"
+                  link=" "
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/P_Janani_karthika_1MS22ET031.jpg?raw=true"
+                ></Member>
+
+<Member
+                  name="Mohammed rayan"
+                  designation="Member"
+                  link=" "
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/Mohammed%20rayan%20(1MS23EI032).jpg?raw=true"
+                ></Member>
+
+<Member
+                  name="Anshu Prakash"
+                  designation="Member"
+                  link=" "
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/Anshu%20Prakash%20Hindoyar_1MS22ET003.jpg?raw=true"
+                ></Member>
+
+<Member
+                  name="Piyush Kumar"
+                  designation="Member"
+                  link=" "
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/Piyush%20Kumar%20Dubey%20%201MS22ET032.jpg?raw=true"
                 ></Member>
               </div>
 

@@ -60,7 +60,11 @@ export default function Home() {
     name="Shireen Dash"
     designation="Public Relations Head"
     link="https://www.linkedin.com/in/shireen-dash-300b96278/"
+<<<<<<< HEAD
     image="https://github.com/aarthipv/profileimages/blob/main/Shireen%20Dash_1ms21ei052.jpeg?raw=true">
+=======
+    image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/PR%20AND%20SP%20/Shireen%20Dash_1ms21ei052.jpeg?raw=true">
+>>>>>>> 2cb918c06b886949862c4f58aed034994f1ce144
   </Member>
 
   {/* Public Relations Co-Head */}
@@ -68,7 +72,7 @@ export default function Home() {
     name="Nidhi Bishnoi"
     designation="Public Relations Co-Head"
     link="https://www.linkedin.com/in/nidhi-bishnoi12"
-    image="https://drive.google.com/thumbnail?id=1-aDTxYBJPtEdCv4IrOZ8JOy2Isg5IKHX">
+    image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/PR%20AND%20SP%20/Nidhi%20%20Bishnoi_1MS21EI035.jpg?raw=true">
   </Member>
 
   {/* Sponsorship Head */}
@@ -76,7 +80,7 @@ export default function Home() {
     name="Prutvi Prakash Shetty"
     designation="Sponsorship Head"
     link="https://www.linkedin.com/in/prutvi-shetty-631420240"
-    image="https://drive.google.com/thumbnail?id=1JonX1ePcDcZYzhppZGpvXiNFWg0v27BC">
+    image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/PR%20AND%20SP%20/Prutvi%20Shetty%20-%201MS21CS103.PNG?raw=true">
   </Member>
 
   {/* Public Relations Vice-Head */}
@@ -84,21 +88,21 @@ export default function Home() {
     name="Ranjana Rajesh"
     designation="Public Relations Vice-Head"
     link="https://www.linkedin.com/in/ranjana-rajesh-454b91278"
-    image="https://drive.google.com/thumbnail?id=1pRdFGPmsIErLHB0QizNmaMTltsYxvb1_">
+    image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/PR%20AND%20SP%20/Ranjana%20Mallya_1MS22MD029.jpg?raw=true">
   </Member>
 
   {/* Members */}
   <Member
     name="Shobhit Srivastava"
     link="https://www.linkedin.com/in/shobhit-srivastava-65332b288"
-    image="https://drive.google.com/thumbnail?id=1cq-vVfxJU_4N6jfafb4e0nMfZmSMshbp">
+    image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/PR%20AND%20SP%20/Shobhit%20Srivastava%20_1MS22CI063.jpg?raw=true">
 
   </Member>
 
   <Member
     name="Annliya Biju"
     link="https://www.linkedin.com/in/annliya-b-317920284"
-    image="https://drive.google.com/thumbnail?id=187OPSvUKJR5xTvVqknHEI2B9lBKQV2aC">
+    image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/PR%20AND%20SP%20/Annliya%20Biju_1MS22BT005_.jpg?raw=true">
 
   </Member>
 
@@ -111,7 +115,7 @@ export default function Home() {
   <Member
     name="Siddharth Lunawat"
     link="http://paul-www.linkedin.com/in/megha-paul-2757b921a"
-    image="https://drive.google.com/thumbnail?id=1NFPFLownO6jzrl6V0fIDbfcBoGmU-a5O">
+    image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/PR%20AND%20SP%20/Siddharth%20Lunawat_1MS22IS134.jpg?raw=true">
 
   </Member>
 
@@ -125,42 +129,53 @@ export default function Home() {
   <Member
     name="Diyaa Prasad"
     link="https://www.linkedin.com/in/diyaa-prasad-b132a6299"
-    image="https://drive.google.com/thumbnail?id=1CJWBIHAKxVOKOSg9-MsseR5Om75QnN_S">
+    image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/PR%20AND%20SP%20/Diyaa%20Prasad_1MS22EC045.jpg?raw=true">
 
   </Member>
 
   <Member
     name="Abhiraj Paralkar"
     link="https://www.linkedin.com/in/abhiraj-paralkar-64613a2a6/"
-    image="https://drive.google.com/uc?id=16-xNXqYNDVTtcPph5CNV001j0fFlBoOV&export=view">
+<<<<<<< HEAD
+    image="https://github.com/aarthipv/profileimages/blob/main/Abhiraj%20P%201MS22CH004.jpg">
+=======
+    image="">//Not uploaded
+>>>>>>> 2cb918c06b886949862c4f58aed034994f1ce144
 
   </Member>
 
   <Member
     name="Tausif Malek"
     link="https://www.linkedin.com/in/tausif-malek-1469a3293/"
-    image="https://drive.google.com/thumbnail?id=1IGldK3LfqQn8LKPCkA6ASF5kgqXewYMP">
+    image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/PR%20AND%20SP%20/Tausif%20Malek_1MS22BT055.JPG?raw=true">
 
   </Member>
 
   <Member
     name="Abhishek Manoj"
     link="http://www.linkedin.com/in/abhishek-manoj-4383512b2"
-    image="https://drive.google.com/thumbnail?id=1MGTQDaSKpLRHrb69d-vVCDCIvGU3qLO1">
+    image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/PR%20AND%20SP%20/Abhishek%20Manoj_1MS22BT001%20.jpg?raw=true">
 
   </Member>
 
   <Member
     name="Zayaan Hussain"
     link="https://www.linkedin.com/in/zayaan-hussain-21a9472b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-    image="https://drive.google.com/thumbnail?id=1dc3_l-F-h72rmW8hE63euQ2AOfZgeF_1">
+    image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/PR%20AND%20SP%20/Zayaan%20Hussain%20_1MS22BT063.jpg?raw=true">
 
   </Member>
 
   <Member
     name="Trisha N Iyer"
     link="https://www.linkedin.com/in/trisha-n-iyer-b506192b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-    image="https://drive.google.com/thumbnail?id=1i-4vitPwFgYygnpFRoHBplmqKSdborta">
+    image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/PR%20AND%20SP%20/Trisha%20N%20Iyer_1MS23CS200.jpg?raw=true">
+
+  </Member>
+
+  <Member
+    name="Aditya Sarkar"
+    link=""//not uploaded
+    image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/PR%20AND%20SP%20/Aditya%20sarkar%201MS23EI067-T.jpg?raw=true">
 
   </Member>
 </div>
