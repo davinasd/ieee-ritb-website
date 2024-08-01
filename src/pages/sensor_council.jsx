@@ -113,7 +113,7 @@ export default function Home() {
                   name="Arpitha M Marali"
                   designation="Vice-chair"
                   link="https://www.linkedin.com/in/"
-                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/?raw=true"
+                  image=""
                 ></Member>
                 
                 <Member
