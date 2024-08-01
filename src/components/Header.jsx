@@ -70,16 +70,18 @@ function MobileNavigation() {
                     <b>Home</b>
                   </Link>
                 </li>
+                
                 <li>
                   <Link href="/faculty" className={`block w-full mob-button ${router.pathname === '/faculty' && 'active'}`} onClick={() => close()}>
                    <b>Faculty</b> 
                   </Link>
                 </li>
                 <li>
-                  <Link href="/gallery" className={`block w-full mob-button ${router.pathname === "/gallery" && 'active'}`} onClick={() => close()}>
-                   <b>Gallery</b> 
+                  <Link href="https://ieee-ritb-website.vercel.app/collab" className="block w-full" onClick={() => close()}>
+                     Collab With US
                   </Link>
                 </li>
+                
                 <li>
                   <Link href="/collab" className={`block w-full mob-button ${router.pathname === '/collab' && 'active'}`} onClick={() => close()}>
                    <b>Collab</b> 

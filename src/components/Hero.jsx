@@ -285,10 +285,10 @@ export function Hero() {
       </div>
       <div className="flex flex-wrap justify-center">
           <ButtonLink
-            href="https://site.ieee.org/sb-ritb/about-ieee/ieee-ramaiah/"
+            href="https://ieee-ritb-website.vercel.app/collab"
             className="text-md mt-8 rounded bg-sky-900 px-4 py-1.5 font-semibold text-gray-50"
           >
-            Know more
+            Collab with us
           </ButtonLink>
         </div>
 

@@ -60,7 +60,11 @@ export default function Home() {
     name="Shireen Dash"
     designation="Public Relations Head"
     link="https://www.linkedin.com/in/shireen-dash-300b96278/"
+<<<<<<< HEAD
+    image="https://github.com/aarthipv/profileimages/blob/main/Shireen%20Dash_1ms21ei052.jpeg?raw=true">
+=======
     image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/PR%20AND%20SP%20/Shireen%20Dash_1ms21ei052.jpeg?raw=true">
+>>>>>>> 2cb918c06b886949862c4f58aed034994f1ce144
   </Member>
 
   {/* Public Relations Co-Head */}
@@ -103,6 +107,12 @@ export default function Home() {
   </Member>
 
   <Member
+    name="Aditya Sarkar"
+    link="https://www.linkedin.com/in/annliya-b-317920284"
+    image="https://github.com/aarthipv/profileimages/blob/main/Aditya%20sarkar%201MS23EI067-T.jpg?raw=true">
+
+  </Member>
+  <Member
     name="Siddharth Lunawat"
     link="http://paul-www.linkedin.com/in/megha-paul-2757b921a"
     image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/PR%20AND%20SP%20/Siddharth%20Lunawat_1MS22IS134.jpg?raw=true">
@@ -126,7 +136,11 @@ export default function Home() {
   <Member
     name="Abhiraj Paralkar"
     link="https://www.linkedin.com/in/abhiraj-paralkar-64613a2a6/"
+<<<<<<< HEAD
+    image="https://github.com/aarthipv/profileimages/blob/main/Abhiraj%20P%201MS22CH004.jpg">
+=======
     image="">//Not uploaded
+>>>>>>> 2cb918c06b886949862c4f58aed034994f1ce144
 
   </Member>
 
