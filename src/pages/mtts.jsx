@@ -93,96 +93,96 @@ export default function Home() {
                   name="Prince Kumar Jha (Chair)"
                   designation="Chair"
                   link="https://www.linkedin.com/in/prince-kumar-jha-2a0929101"
-                  image="https://drive.google.com/thumbnail?id=19NxHvsgSlHo2NrSK5FdA2AG-jz36L8R6"
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/MTTS/Prince%20Kumar%20Jha_1MS21ET035.jpg?raw=true"
                 />
                 <Member
                   name="Akshat Ujjain (Vice Chair)"
                   designation="Vice Chair"
                   link="https://www.linkedin.com/in/akshat-ujjain-105263261?"
-                  image="https://drive.google.com/thumbnail?id=1_fcj0cShD-vchVGG9ZJvQM5uXX7zMPeP"
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/MTTS/Akshat%20Ujjain_1MS22ET001.jpg?raw=true"
                 />
                 <Member
                   name="Priyadarshi Uttpal (Secretary)"
                   designation="Secretary"
                   link="https://www.linkedin.com/in/aditya-gangwani-615271246?"
-                  image="https://drive.google.com/thumbnail?id=1AIs2I8qlsT8eEmJhQuZ9RVbCBNZ2c9hZ"
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/MTTS/Priyadarshi%20Utpal_1ms21et037.jpg?raw=true"
                 />
                 <Member
                   name="Akancha Gracy Tamang (Vice Secretary)"
                   designation="Vice Secretary"
                   link="https://www.linkedin.com/in/akancha-tamang-18a1aa24a"
-                  image="https://drive.google.com/thumbnail?id=1nJyW1nXdd0oK9m_R3hSfiPnkYYRU5CH4"
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/MTTS/Akancha%20Gracy%20Tamang_1MS22CH006.jpg?raw=true"
                 />
                 <Member
                   name="Yashas V (Treasurer)"
                   designation="Treasurer"
                   link="https://www.linkedin.com/in/yashas-v-b9747b278/"
-                  image="https://drive.google.com/thumbnail?id=1EfGmXd_IN2JSL7vrGXVKxVuiJZfK994d"
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/MTTS/Yashas%20V_1MS21ET057.PNG?raw=true"
                 />
                 <Member
                   name="Sameer P Bhandiwad (Vice Treasurer)"
                   designation="Vice Treasurer"
                   link="https://www.linkedin.com/in/sameer-p-bhandiwad-b61756250"
-                  image="https://drive.google.com/thumbnail?id=13T9Bi0x7dIo_8jrde-GlEcKnarUA_i3t"
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/MTTS/Sameer%20P%20Bhandiwad_1MS22ET042.jpg?raw=true"
                 />
                 <Member
                   name="Sushmita N Mathad (Execom)"
                   designation="Execom"
                   link="https://www.linkedin.com/in/sushmita-mathad-9780b9285"
-                  image="https://drive.google.com/thumbnail?id=1p66M7-VqfFkaFgYDNTLauIXwFhTkW3JI"
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/MTTS/Sushmita%20Mathad_1MS22EC159.jpg?raw=true"
                 />
                 <Member
                   name="Aditya Gangwani (Execom)"
                   designation="Execom"
                   link="https://www.linkedin.com/in/aditya-gangwani-615271246?"
-                  image="https://drive.google.com/thumbnail?id=145gp36KB8ywtVWPw6zVe83E42tK9zngk"
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/MTTS/ADITYA%20GANGWANI_1MS23EC007.jpg?raw=true"
                 />
                 <Member
                   name="Aishwarya Mahesh Ulavi (Execom)"
                   designation="Execom"
                   link="https://www.linkedin.com/in/aishwarya-ulavi-34903b2b3"
-                  image="https://drive.google.com/thumbnail?id=1xffgQAugeFZR-XVyTn9yIWVAiZRtFk6X"
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/MTTS/Aishwarya%20Mahesh%20Ulavi_1MS23EC009.jpg?raw=true"
                 />
                 <Member
                   name="Shreedhar Shetty (Execom)"
                   designation="Execom"
                   link="www.linkedin.com/in/shreedhar-shetty-92079525a"
-                  image="https://drive.google.com/thumbnail?id=1A3in33JNopckh-09vQCMS_Vkfi9SKcZB"
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/MTTS/shreedhara_1MS21ET048.jpeg?raw=true"
                 />
                 <Member
                   name="Shreenath Shenoy (Execom)"
                   designation="Execom"
                   link="https://www.linkedin.com/in/shreenath-shenoy-76704a2b3?"
-                  image="https://drive.google.com/thumbnail?id=14hyAmO038xlqsX2vNU1ePLW8ABxNXzfB"
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/MTTS/Shreenath_1MS23CI009.jpg?raw=true"
                 />
                 <Member
                   name="Lakshman Gowda H K (Execom)"
                   designation="Execom"
                   link="https://www.linkedin.com/in/lakshman-gowda-562472295"
-                  image="https://drive.google.com/thumbnail?id=1SUd_tnz_FZTA3UBFyOP8KI1ENRLksjHo"
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/MTTS/Lakshman%20Gowda%201MS22ET019.png?raw=true"
                 />
                 <Member
                   name="Navya Ullas Rai (Execom)"
                   designation="Execom"
                   link="https://www.linkedin.com/in/navya-ullas-rai-05884b2b2"
-                  image="https://drive.google.com/thumbnail?id=1VDeAgGxm24V_Xa9CgdUo1p-LaHEBpZQg"
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/MTTS/Navya%20Ullas%20Rai_1MS23ET035.jpg?raw=true"
                 />
                 <Member
                   name="Deekshith Kumar T (Execom)"
                   designation="Execom"
                   link="https://www.linkedin.com/in/deekshith-kumar-t-799485251"
-                  image="#"
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/MTTS/DEEKSHITH%20KUMAR%20T_1MS22ET401.jpg?raw=true"
                 />
                 <Member
                   name="Vidit Agrawal (Execom)"
                   designation="Execom"
                   link="https://www.linkedin.com/in/vidit-agrawal-161047289"
-                  image="https://drive.google.com/thumbnail?id=1SzW203XDe8rqZCNB4k7vxPXBN2qrNEFB"
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/MTTS/Vidit%20agrawal-%201MS23EC053-T.jpg?raw=true"
                 />
                 <Member
                   name="Pranav B M (Member)"
                   designation="Member"
-                  link="https://www.linkedin.com/in/vidit-agrawal-161047289"
+                  link=""
                   image="#"
                 />
               </div>

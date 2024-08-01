@@ -37,17 +37,12 @@ const images = [
 ]
 const members = [
   {
-    name: "Banu Prasad",
+    name: "Banu Prasad M",
     designation: "Chair",
     link: "https://www.linkedin.com/in/banu-prasad-m-925558270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     image: "https://github.com/aarthipv/profileimages/blob/main/aps/Banu%20Prasad%20M_1MS21EC034.jpeg?raw=true"
   },
-  {
-    name: "Dheeraj V",
-    designation: "Vice Chair",
-    link: "http://www.linkedin.com/in/dheerajv624",
-    image: "https://github.com/aarthipv/profileimages/blob/main/aps/Dheeraj%20V%201MS22EC042_.jpg?raw=true"
-  },
+  
   {
     name: "Kokila",
     designation: "Secretary",
@@ -67,22 +62,37 @@ const members = [
     link: "https://www.linkedin.com/in/chandrak-jayakumar-63211429a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     image: "https://github.com/aarthipv/profileimages/blob/main/aps/Chandrak%20Jayakumar_1ms21ec039.jpg?raw=true"
   },
+  
+  {
+    name: "Dheeraj V",
+    designation: "Vice Chair",
+    link: "http://www.linkedin.com/in/dheerajv624",
+    image: "https://github.com/aarthipv/profileimages/blob/main/aps/Dheeraj%20V%201MS22EC042_.jpg?raw=true"
+  },
+  
+  {
+    name: "Disha K",
+    designation: "Vice Secretary",
+    link: "https://www.linkedin.com/in/disha-k-603563258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    image: "https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/APS/Disha%20Ravindra%20Kadarkoppa_1MS22EI017_?raw=true"
+  },
+  
   {
     name: "B M Vishnu",
-    designation: "Co - Treasurer",
+    designation: "Vice Treasurer",
     link: "https://www.linkedin.com/in/vishnu-bm-0481ba252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     image: "https://github.com/aarthipv/profileimages/blob/main/aps/B%20M%20VISHNU_1MS22EC030%20.jpg?raw=true"
   },
   {
     name: "Sujay P C",
     designation: "Member",
-    link: "https://www.linkedin.com/in/banu-prasad-m-925558270",//not uploaded
+    link: "",//not uploaded
     image: "https://github.com/aarthipv/profileimages/blob/main/aps/Sujay%20P%20C_1MS22ET053.jpg?raw=true"
   },
   {
     name: "Kishor Ravindra Hitnalli ",
     designation: "Member",
-    link: "https://www.linkedin.com/in/banu-prasad-m-925558270",//not uploaded
+    link: "",//not uploaded
     image: "https://github.com/aarthipv/profileimages/blob/main/aps/kishor%20Hitnalli%20(1ms22cy035).jpg?raw=true"
   },
   {
@@ -100,14 +110,14 @@ const members = [
   {
     name: "Akash Srivastava ",
     designation: "Member",
-    link: "https://www.linkedin.com/in/banu-prasad-m-925558270",//not uploaded
-    image: "https://drive.google.com/uc?id=1WW1FXoE47iehfz5zv07bmE8_Fh9LrPz2&export=view"
+    link: "",//not uploaded
+    image: "https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/APS/Akash%20Srivastava%20ETE.jpg?raw=true"
   },
   {
     name: "Bumika N R",
     designation: "Member",
     link: "https://www.linkedin.com/in/bumika-n-r-b93b27283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    image: "https://drive.google.com/thumbnail?id=1ozF0aoKNn-YwGUE4t3UpTK0ktE3URR5Z"//image not loading
+    image: "https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/APS/Bumika%20N%20R_1MS23ME026.jpg?raw=true"
   },
   {
     name: "Sandra Elsa Subin ",
@@ -124,10 +134,23 @@ const members = [
   {
     name: "Sneha Vijay ",
     designation: "Member",
-    link: "https://www.linkedin.com/in/banu-prasad-m-925558270",//not uploaded
+    link: "",//not uploaded
     image: "https://github.com/aarthipv/profileimages/blob/main/aps/Sneha%20Vijay%20.jpg?raw=true"
   },
 
+  {
+    name: "Bhargava Siddhartha B ",
+    designation: "Member",
+    link: "http://linkedin.com/in/bhargava-siddhartha-b-b659b1280",
+    image: "https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/APS/Bhargava%20Siddhartha%20_%201MS21EC037.jpg?raw=true"
+  },
+
+  {
+    name: "D Shravan Narayana",
+    designation: "Member",
+    link: "https://www.linkedin.com/in/shravan-narayana-d-2b6a1b280",
+    image: "https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/APS/D%20Shravan%20Narayana_1MS21EC041.jpeg?raw=true"
+  },
 ];
 
 export default function Home() {

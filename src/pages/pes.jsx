@@ -161,6 +161,7 @@ export default function Home() {
                   link="https://www.linkedin.com/in/manish-bennalli-9563502b2 "
                   image="https://github.com/sanjay212003/ieee-members/blob/main/PES/venu%20gopal%20_%201MS23EI016-T.pdf?raw=true">
                 </Member>
+                
               </div>
 
               <div className="mt-10 flex items-center justify-center gap-x-6">
