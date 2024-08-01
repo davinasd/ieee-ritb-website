@@ -49,8 +49,14 @@ const members = [
     link: "https://www.linkedin.com/in/kokila-s-642161252",
     image: "https://github.com/aarthipv/profileimages/blob/main/aps/Kokila_1MS21EE029.jpg?raw=true"
   },
-
-   {
+  {
+    name: "Disha K",
+    designation: "Co- Secretary",
+    link: "https://github.com/aarthipv/profileimages/blob/main/aps/Disha%20Ravindra%20Kadarkoppa_1MS22EI017%20.HEIC",
+    image: "https://drive.google.com/thumbnail?id=1EjBWat9H7vBRshsFqTZqRAHYC3-Zcfhb"//not uploaded
+  },
+  
+  {
     name: "Chandrak",
     designation: "Treasurer",
     link: "https://www.linkedin.com/in/chandrak-jayakumar-63211429a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
