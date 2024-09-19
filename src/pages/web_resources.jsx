@@ -64,13 +64,6 @@ const members = [
       'https://github.com/sanjay212003/ieee-members/blob/main/Abhishekvk_1ms22ad003.jpeg?raw=true',
   },
    {
-    name: 'Mudit Sethia',
-    designation: 'Member',
-    link: 'https://www.linkedin.com/in/',
-    image:
-      'https://github.com/sanjay212003/ieee-members/blob/main/Mudit%20Sethia_1MS22CY043.JPG?raw=true',
-  },
-   {
     name: 'Natasha Brito',
     designation: 'Member',
     link: 'https://www.linkedin.com/in/natasha-brito-34292425b/',
@@ -83,13 +76,6 @@ const members = [
     link: 'https://www.linkedin.com/in/',
     image:
       'https://github.com/sanjay212003/ieee-members/blob/main/Shivesh%20Tiwari_1MS23CH017.jpg?raw=true',
-  },
-   {
-    name: 'Shobhit Srivastava',
-    designation: 'Member',
-    link: 'https://www.linkedin.com/in/shobhit-srivastava-65332b288',
-    image:
-      'https://github.com/sanjay212003/ieee-members/blob/main/Shobhit%20Srivastava%20_1MS22CI063.jpg?raw=true',
   },
    {
     name: 'U Sanjay',
